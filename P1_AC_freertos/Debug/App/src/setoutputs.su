@@ -1,0 +1,15 @@
+gpio_17xx_40xx.h:88:20:Chip_GPIO_SetPinState	16	static
+setoutputs.c:44:6:SetSVRequests	8	static
+setoutputs.c:62:6:ClearSVRequests	8	static
+setoutputs.c:79:6:SetSV2	8	static
+setoutputs.c:97:6:ClearSV2	8	static
+setoutputs.c:114:6:SetSV3	8	static
+setoutputs.c:132:6:ClearSV3	8	static
+setoutputs.c:149:6:SetWorkLight	8	static
+setoutputs.c:167:6:ClearWorkLight	8	static
+setoutputs.c:185:6:SetLEDR	8	static
+setoutputs.c:203:6:SetLEDG	8	static
+setoutputs.c:221:6:ClearLEDR	8	static
+setoutputs.c:239:6:ClearLEDG	8	static
+setoutputs.c:260:6:ResetExternalWatchdog	4	static
+setoutputs.c:286:6:SetOutputs	8	static

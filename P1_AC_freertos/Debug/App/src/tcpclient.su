@@ -1,0 +1,3 @@
+TcpClient.c:69:13:GetMessageFromServer	272	static
+TcpClient.c:291:5:SendMessageToServer	128	static
+TcpClient.c:337:6:TcpClientInit	16	static

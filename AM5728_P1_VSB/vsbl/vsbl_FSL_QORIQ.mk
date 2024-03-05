@@ -1,0 +1,32 @@
+# Automatically generated file: do not edit
+
+##########################
+# FSL_QORIQ Section
+##########################
+
+
+ifdef _WRS_CONFIG_FSL_QORIQ
+VSBL_FSL_QORIQ_SRC = 
+VSBL_FSL_QORIQ_DEPEND = 
+
+ifdef _WRS_CONFIG_FSL_QORIQ_2_0_7_0
+VSBL_FSL_QORIQ_SRC += FSL_QORIQ
+ifdef _WRS_CONFIG_ARM
+VSBL_FSL_QORIQ_DEPEND += PSCI
+endif
+VSBL_FSL_QORIQ_DEPEND += FDT
+VSBL_FSL_QORIQ_DEPEND += UTILS
+VSBL_FSL_QORIQ_DEPEND += VXBUS
+VSBL_FSL_QORIQ_DEPEND += CORE
+ifdef _WRS_CONFIG_ARM
+VSBL_FSL_QORIQ_DEPEND += ARM
+endif
+ifdef _WRS_CONFIG_ARM*
+VSBL_FSL_QORIQ_DEPEND += ARM
+endif
+FSL_QORIQ_FASTBUILD = YES
+VSBL_FSL_QORIQ_PATH = $(WIND_BASE)/os/psl/freescale/fsl_qoriq
+VSBL_FSL_QORIQ_VERSION = FSL_QORIQ_2_0_7_0
+endif
+endif
+

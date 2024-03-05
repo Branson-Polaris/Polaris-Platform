@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# SERVICE_UN Section
+##########################
+
+
+ifdef _WRS_CONFIG_SERVICE_UN
+VSBL_SERVICE_UN_SRC = 
+VSBL_SERVICE_UN_DEPEND = 
+
+ifdef _WRS_CONFIG_SERVICE_4_0_1_1_UN_4_0_1_1
+VSBL_SERVICE_UN_SRC += SERVICE_UN
+VSBL_SERVICE_UN_DEPEND += NET_BASE
+VSBL_SERVICE_UN_DEPEND += SERVICE_SOCKET
+SERVICE_UN_FASTBUILD = YES
+VSBL_SERVICE_UN_PATH = $(WIND_BASE)/os/service/un
+VSBL_SERVICE_UN_VERSION = SERVICE_4_0_1_1_UN_4_0_1_1
+endif
+endif
+

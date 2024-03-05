@@ -1,0 +1,19 @@
+# Automatically generated file: do not edit
+
+##########################
+# SERVICE_RPMSG Section
+##########################
+
+
+ifdef _WRS_CONFIG_SERVICE_RPMSG
+VSBL_SERVICE_RPMSG_SRC = 
+VSBL_SERVICE_RPMSG_DEPEND = 
+
+ifdef _WRS_CONFIG_SERVICE_4_0_1_1_RPMSG_4_0_1_1
+VSBL_SERVICE_RPMSG_SRC += SERVICE_RPMSG
+SERVICE_RPMSG_FASTBUILD = YES
+VSBL_SERVICE_RPMSG_PATH = $(WIND_BASE)/os/service/rpmsg
+VSBL_SERVICE_RPMSG_VERSION = SERVICE_4_0_1_1_RPMSG_4_0_1_1
+endif
+endif
+

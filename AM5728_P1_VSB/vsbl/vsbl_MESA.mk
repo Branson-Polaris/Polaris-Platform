@@ -1,0 +1,27 @@
+# Automatically generated file: do not edit
+
+##########################
+# MESA Section
+##########################
+
+
+ifdef _WRS_CONFIG_MESA
+VSBL_MESA_SRC = 
+VSBL_MESA_DEPEND = 
+
+ifdef _WRS_CONFIG_MESA_13_0_3_18
+VSBL_MESA_SRC += MESA
+ifdef _WRS_CONFIG_ARCH_i86
+VSBL_MESA_DEPEND += LIBDRM
+endif
+VSBL_MESA_DEPEND += EXPAT
+VSBL_MESA_DEPEND += FBDEV
+VSBL_MESA_DEPEND += KHRONOS
+VSBL_MESA_DEPEND += RASTER_VG
+VSBL_MESA_DEPEND += LIBC_STD
+MESA_FASTBUILD = YES
+VSBL_MESA_PATH = $(WIND_BASE)/contrib/mesa-13.0.3
+VSBL_MESA_VERSION = MESA_13_0_3_18
+endif
+endif
+

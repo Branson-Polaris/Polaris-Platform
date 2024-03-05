@@ -1,0 +1,1429 @@
+
+U-Boot SPL 2016.05 (Sep 17 2021 - 11:35:41)
+DRA752-GP ES2.0
+Trying to boot from MMC1
+reading args
+spl_load_image_fat_os: error reading image args, err - -1
+reading u-boot.img
+reading u-boot.img
+reading u-boot.img
+reading u-boot.img
+
+
+U-Boot 2016.05 (Sep 17 2021 - 11:35:41 +0530)
+
+CPU  : DRA752-GP ES2.0
+Model: TI AM5728 IDK
+Board: AM572x IDK REV <NULL>
+DRAM:  2 GiB
+MMC:   no pinctrl for sdr104
+no pinctrl for ddr50
+no pinctrl for sdr50
+no pinctrl for sdr25
+no pinctrl for sdr12
+OMAP SD/MMC: 0, OMAP SD/MMC: 1
+reading uboot.env
+*** Warning - bad CRC, using default environment
+
+I2C chip 50: requested alen 2 does not match chip offset_len 1
+SCSI:  SATA link 0 timeout.
+AHCI 0001.0300 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+flags: 64bit ncq stag pm led clo only pmp pio slum part ccc apst
+scanning bus for devices...
+Found 0 device(s).
+Net:
+Warning: ethernet@48484000 using MAC address from ROM
+eth0: ethernet@48484000
+Hit any key to stop autoboot:  0
+switch to partitions #0, OK
+mmc0 is current device
+SD/MMC found on device 0
+reading boot.scr
+** Unable to read file boot.scr **
+reading uEnv.txt
+347 bytes read in 3 ms (112.3 KiB/s)
+Loaded env from uEnv.txt
+Importing environment from mmc0 ...
+Running uenvcmd ...
+reading vxWorks.bin
+18248792 bytes read in 802 ms (21.7 MiB/s)
+reading /SonicsDSP.xe66
+5174684 bytes read in 230 ms (21.5 MiB/s)
+## Starting application at 0x84100000 ...
+Target Name: vxTarget
+
+ _________            _________
+ \........\          /......../
+  \........\        /......../
+   \........\      /......../
+    \........\    /......../
+     \........\   \......./
+      \........\   \...../              VxWorks SMP 32-bit
+       \........\   \.../
+        \........\   \./     Release version: 21.07
+         \........\   -      Build date: Mar 14 2023 15:06:33
+          \........\
+           \......./         Copyright Wind River Systems, Inc.
+            \...../   -                 1984-2023
+             \.../   /.\
+              \./   /...\
+               -   -------
+
+                   Board: TI_AM572X_BRANSON - Cortex-A15 (ARMV7A)
+               CPU Count: 2
+          OS Memory Size: 1920MB
+        ED&R Policy Mode: Deployed
+
+
+ Adding 17011 symbols for standalone.
+
+IMG1.. Enable EXT PWR GPIO
+IMG1.. GPIO allocation status: 0
+IMG1.. GPIO direction set status: 0
+-> --->>> PRCM Clock Configuration for OPPNOM in progress... <<<---
+        IVA DPLL OPP 0 clock config is in progress...
+        IVA DPLL OPP 0 is DONE!
+        ABE DPLL OPP 0 clock config in progress...
+        ABE DPLL OPP 0 is DONE!
+        GPU DPLL OPP 0 clock config is in progress...
+        GPU DPLL OPP 0 is DONE!
+        DSP DPLL OPP 0 clock config is in progress...
+        DSP DPLL OPP 0 is DONE!
+--->>> PRCM Clock Configuration for OPP 0 is DONE! <<<---
+--->>> PRCM Configuration for all modules in progress... <<<---
+--->>> PRCM Configuration for all modules is DONE! <<<---
+rproc_elf32_load_segments: addr = 0x2d204000 size = 0x2000000
+--->>> Mapping TIMER suspend sources to default cores <<<<<<----
+--->>> DSP1SS Initialization is in progress ... <<<---
+DEBUG: Clock is active ...
+--->>> DSP1SS Initialization is DONE! <<<---
+Waiting for dsp ...
+DSP started successfully
+initCpsw1: write: EEPROM_PATH: MAC address saved
+initCpsw1: Open: IP_CONFIG_PATH invalid data using defaults
+    add net 0.0.0.0: netmask 0.0.0.0: gateway 192.168.2.1
+
+***User application loading start!***
+
+EMMC is already HRFS formatted!
+
+PrintVersion: DSP Version: 0.0.20.0
+
+MAIN_T: DSP Config A: 1
+
+MAIN_T: Create MsgQ: OK
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 1> ~ < D ><LC: 1> ~  < Line No: 30 > < File: D:/streams/ACEPRO2023/RTP_ASC/Platform/DCX/Logic/SC/ScDgtInput.cpp > : ------------------------ DgtInput Task spawned ------------------------
+
+ACTSocket_T: Socket create: OK
+
+EmrsnSocket::Bind: Port ID: 0: 1601
+
+ACTSocket_T: socket listen: OK
+
+MAIN_T: Create Tasks: OK
+
+EmrsnSocket::Bind: Port ID: 0: 1600
+
+HMISocket_T: socket listening on Port: 1600
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 2> ~ < E ><LC: 2> ~  < Line No: 212 > < File: Dk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 3> ~ < E ><LC: 3> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIntek
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+
+Main_T : AuxClk set at Rate = 4000
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+
+Main_T : TaskId: 65614 connected Aux ISR
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 5> ~ < E ><LC: 5> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message ID-k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+ProcessTaskMessage1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 6> ~ < E ><LC: 6> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTasUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 7> ~ < E ><LC: 7> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message ID-LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 8> ~ < E ><LC: 8> ~  < Line No: 212 > < File: DData_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldFo0x202a3740 (tLogger): <LC: 9> ~ < E ><LC: 9> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTasrce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 10> ~ < E ><LC: 10> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInData_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 12> ~ < E ><LC: 12> ~  < Line No: 95 > < File: UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 14> ~ < E ><LC: 14> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read0x202a3740 (tLogger): <LC: 15> ~ < E ><LC: 15> ~  < Line No: 95 > < File:
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): <LC: 16> ~ < E ><LC: 16> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInsk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 17> ~ < E ><LC: 17> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message IProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+UserInterface.CycleCounter=2 UserInterface.EndHoldFo0x202a3740 (tLogger): rce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 20> ~ < E ><LC: 20> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+
+PS_T: _PC_READY
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T 0x202a3740 (tLogger): task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T t0x202a3740 (tLogger): <LC: 23> ~ < E ><LC: 23> ~  < Line No: 212 > < File:ask
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 26> ~ < E ><LC: 26> ~  < Line No: 212 > < File:Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 27> ~ < E ><LC: 27> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 28> ~ < E ><LC: 28> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message IProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 29> ~ < E ><LC: 29> ~  < Line No: 95 > < File: UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 30> ~ < E ><LC: 30> ~  < Line No: 212 > < File:k
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): <LC: 33> ~ < E ><LC: 33> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIsk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 34> ~ < E ><LC: 34> ~  < Line No: 212 > < FileLAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 35> ~ < E ><LC: 35> ~  < Line No: 212 > < Filek
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+ProcessTaskMessage1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T t0x202a3740 (tLogger): <LC: 36> ~ < E ><LC: 36> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID---ask
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 37> ~ < E ><LC: 37> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 38> ~ < E ><LC: 38> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 39> ~ < E ><LC: 39> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T 0x202a3740 (tLogger): task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+0x202a3740 (tLogger): <LC: 41> ~ < E ><LC: 41> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 44> ~ < E ><LC: 44> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessagLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 45> ~ < E ><LC: 45> ~  < Line No: 212 > < File:k
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 46> ~ < E ><LC: 46> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 47> ~ < E ><LC: 47> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 49> ~ < E ><LC: 49> ~  < Line No: 95 > < File:sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 50> ~ < E ><LC: 50> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 52> ~ < E ><LC: 52> ~  < Line No: 212 > < File:LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 54> ~ < E ><LC: 54> ~  < Line No: 212 > < FileProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 55> ~ < E ><LC: 55> ~  < Line No: 212 > < Filek
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 56> ~ < E ><LC: 56> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID----LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 57> ~ < E ><LC: 57> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserILAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 59> ~ < E ><LC: 59> ~  < Line No: 95 > < File:sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 62> ~ < E ><LC: 62> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message Ik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 65> ~ < E ><LC: 65> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 66> ~ < E ><LC: 66> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserIk
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 68> ~ < E ><LC: 68> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 69> ~ < E ><LC: 69> ~  < Line No: 212 > < Filek
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 70> ~ < E ><LC: 70> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTsk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 71> ~ < E ><LC: 71> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 72> ~ < E ><LC: 72> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 75> ~ < E ><LC: 75> ~  < Line No: 212 > < File:ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 76> ~ < E ><LC: 76> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInk
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 78> ~ < E ><LC: 78> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 79> ~ < E ><LC: 79> ~  < Line No: 212 > < File:k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 80> ~ < E ><LC: 80> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID-----LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 81> ~ < E ><LC: 81> ~  < Line No: 212 > < File:LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 82> ~ < E ><LC: 82> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInData_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 83> ~ < E ><LC: 83> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID----UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 85> ~ < E ><LC: 85> ~  < Line No: 212 > < FileLAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 86> ~ < E ><LC: 86> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 88> ~ < E ><LC: 88> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserILAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 89> ~ < E ><LC: 89> ~  < Line No: 212 > < FileLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 90> ~ < E ><LC: 90> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/Userk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 92> ~ < E ><LC: 92> ~  < Line No: 212 > < File:LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 93> ~ < E ><LC: 93> ~  < Line No: 212 > < Filek
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 94> ~ < E ><LC: 94> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): <LC: 95> ~ < E ><LC: 95> ~  < Line No: 212 > < File:sk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 96> ~ < E ><LC: 96> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessagProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 98> ~ < E ><LC: 98> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Message ILAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 100> ~ < E ><LC: 100> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 102> ~ < E ><LC: 102> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 103> ~ < E ><LC: 103> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message IDUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 105> ~ < E ><LC: 105> ~  < Line No: 212 > < FilProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 106> ~ < E ><LC: 106> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/Usek
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 107> ~ < E ><LC: 107> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 108> ~ < E ><LC: 108> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 109> ~ < E ><LC: 109> ~  < Line No: 212 > < Fik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 110> ~ < E ><LC: 110> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID---LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 111> ~ < E ><LC: 111> ~  < Line No: 212 > < FilLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 112> ~ < E ><LC: 112> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/Usek
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 113> ~ < E ><LC: 113> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ContrrInterfaceTask.cpp > : UI_T : --------Unknown Message ID----------- :  sk
+0x202a3740 (tLogger): <LC: 114> ~ < E ><LC: 114> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 115> ~ < E ><LC: 115> ~  < Line No: 212 > < FilProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 116> ~ < E ><LC: 116> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 117> ~ < E ><LC: 117> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 118> ~ < E ><LC: 118> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messak
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 120> ~ < E ><LC: 120> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 123> ~ < E ><LC: 123> ~  < Line No: 95 > < FilLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 124> ~ < E ><LC: 124> ~  < Line No: 212 > < FilLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 125> ~ < E ><LC: 125> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 126> ~ < E ><LC: 126> ~  < Line No: 95 > < FilUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 127> ~ < E ><LC: 127> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 128> ~ < E ><LC: 128> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messagk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 130> ~ < E ><LC: 130> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 131> ~ < E ><LC: 131> ~  < Line No: 212 > < FilLAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 132> ~ < E ><LC: 132> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UsLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 133> ~ < E ><LC: 133> ~  < Line No: 95 > < FilLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 134> ~ < E ><LC: 134> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 135> ~ < E ><LC: 135> ~  < Line No: 212 > < Filk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 136> ~ < E ><LC: 136> ~  < Line No: 95 > < FileLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 138> ~ < E ><LC: 138> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 139> ~ < E ><LC: 139> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID--UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 140> ~ < E ><LC: 140> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 141> ~ < E ><LC: 141> ~  < Line No: 212 > < Fik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 142> ~ < E ><LC: 142> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/Controsk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 143> ~ < E ><LC: 143> ~  < Line No: 212 > < FiLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 144> ~ < E ><LC: 144> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messak
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 145> ~ < E ><LC: 145> ~  < Line No: 95 > < FilLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 146> ~ < E ><LC: 146> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UsLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 147> ~ < E ><LC: 147> ~  < Line No: 212 > < FilProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForc0x202a3740 (tLogger): e=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 149> ~ < E ><LC: 149> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UsProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 150> ~ < E ><LC: 150> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessageProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 152> ~ < E ><LC: 152> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 153> ~ < E ><LC: 153> ~  < Line No: 212 > < FilProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 154> ~ < E ><LC: 154> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messagk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): <LC: 155> ~ < E ><LC: 155> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID--sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 156> ~ < E ><LC: 156> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 157> ~ < E ><LC: 157> ~  < Line No: 212 > < Fik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T 0x202a3740 (tLogger): <LC: 158> ~ < E ><LC: 158> ~  < Line No: 95 > < Filtask
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 160> ~ < E ><LC: 160> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 161> ~ < E ><LC: 161> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID--UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 162> ~ < E ><LC: 162> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 164> ~ < E ><LC: 164> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 165> ~ < E ><LC: 165> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 166> ~ < E ><LC: 166> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 168> ~ < E ><LC: 168> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 172> ~ < E ><LC: 172> ~  < Line No: 212 > < FiLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 174> ~ < E ><LC: 174> ~  < Line No: 95 > < FilUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 175> ~ < E ><LC: 175> ~  < Line No: 212 > < FilProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): sk
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 177> ~ < E ><LC: 177> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 178> ~ < E ><LC: 178> ~  < Line No: 95 > < FilLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 179> ~ < E ><LC: 179> ~  < Line No: 212 > < FiLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 180> ~ < E ><LC: 180> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/Usek
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 181> ~ < E ><LC: 181> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message ID-LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 182> ~ < E ><LC: 182> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): k
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 187> ~ < E ><LC: 187> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messk
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): <LC: 190> ~ < E ><LC: 190> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown Messask
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 191> ~ < E ><LC: 191> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UseLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 192> ~ < E ><LC: 192> ~  < Line No: 95 > < FileLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 193> ~ < E ><LC: 193> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 194> ~ < E ><LC: 194> ~  < Line No: 212 > < Fik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+ProcessTaskMessage1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 195> ~ < E ><LC: 195> ~  < Line No: 95 > < FileUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T tas0x202a3740 (tLogger): k
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 197> ~ < E ><LC: 197> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaData_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 200> ~ < E ><LC: 200> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): <LC: 201> ~ < E ><LC: 201> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UsProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 203> ~ < E ><LC: 203> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T tas0x202a3740 (tLogger): <LC: 204> ~ < E ><LC: 204> ~  < Line No: 212 > < Fik
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 205> ~ < E ><LC: 205> ~  < Line No: 95 > < FilLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+0x202a3740 (tLogger): <LC: 206> ~ < E ><LC: 206> ~  < Line No: 212 > < FiLAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T ta0x202a3740 (tLogger): <LC: 207> ~ < E ><LC: 207> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/Usersk
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+ProcessTaskMessage1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): <LC: 208> ~ < E ><LC: 208> ~  < Line No: 95 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/SC/ControlTask.cpp > : CTRL : ----------Unknown Message IDUserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 209> ~ < E ><LC: 209> ~  < Line No: 212 > < FilLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+0x202a3740 (tLogger): UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 212> ~ < E ><LC: 212> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 213> ~ < E ><LC: 213> ~  < Line No: 212 > < File: D:/streams/ACEPRO2023/RTP_ASC/Core/Logic/HMI/UserInterfaceTask.cpp > : UI_T : --------Unknown MessaProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from ctrl task
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ Data_Read_Task(void* )1
+LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+0x202a3740 (tLogger): ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+LAST_WELD_RESULT_DATA_READ_RES is recived in ctrl task
+Data_Read_Task(void* )1
+ctrltestWelddata.CycleCounter=2 ctrltestWelddata.EndHoldForce=3
+ ProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+0x202a3740 (tLogger): <LC: 215> ~ < E ><LC: 215> ~  < Line No: 95 > < FileLAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterface.EndHoldForce=3
+ LAST_WELD_RESULT_DATA_READ_REQ is sent from UI_T task
+Data_Read_Task(void* )1
+0x202a3740 (tLogger): <LC: 216> ~ < E ><LC: 216> ~  < Line No: 212 > < FiProcessTaskMessage1
+LAST_WELD_RESULT_DATA_READ_RES is recived in UI_T task
+LAST_WELD_RESULT_DATA_READ_REQ sent from data read
+UserInterface.CycleCounter=2 UserInterfac▒

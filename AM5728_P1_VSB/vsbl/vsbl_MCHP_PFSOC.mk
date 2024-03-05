@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# MCHP_PFSOC Section
+##########################
+
+
+ifdef _WRS_CONFIG_MCHP_PFSOC
+VSBL_MCHP_PFSOC_SRC = 
+VSBL_MCHP_PFSOC_DEPEND = 
+
+ifdef _WRS_CONFIG_MCHP_PFSOC_1_0_1_1
+VSBL_MCHP_PFSOC_SRC += MCHP_PFSOC
+VSBL_MCHP_PFSOC_DEPEND += FDT
+VSBL_MCHP_PFSOC_DEPEND += UTILS
+VSBL_MCHP_PFSOC_DEPEND += VXBUS
+MCHP_PFSOC_FASTBUILD = YES
+VSBL_MCHP_PFSOC_PATH = $(WIND_BASE)/os/psl/microchip/mchp_pfsoc
+VSBL_MCHP_PFSOC_VERSION = MCHP_PFSOC_1_0_1_1
+endif
+endif
+

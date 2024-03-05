@@ -1,0 +1,20 @@
+# Automatically generated file: do not edit
+
+##########################
+# RENESAS_COMMON Section
+##########################
+
+
+ifdef _WRS_CONFIG_RENESAS_COMMON
+VSBL_RENESAS_COMMON_SRC = 
+VSBL_RENESAS_COMMON_DEPEND = 
+
+ifdef _WRS_CONFIG_RENESAS_COMMON_2_0_2_4
+VSBL_RENESAS_COMMON_SRC += RENESAS_COMMON
+VSBL_RENESAS_COMMON_DEPEND += FDT
+RENESAS_COMMON_FASTBUILD = YES
+VSBL_RENESAS_COMMON_PATH = $(WIND_BASE)/os/psl/renesas/renesas_common
+VSBL_RENESAS_COMMON_VERSION = RENESAS_COMMON_2_0_2_4
+endif
+endif
+

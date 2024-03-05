@@ -1,0 +1,12 @@
+# Automatically generated file: do not edit
+_WRS_CONFIG_ti_sitara_ctxa15_branson_2_1_0_0_CPU = ARMARCH7
+
+
+ifdef _WRS_CONFIG_ARM_2_0_8_0 
+_HW_ti_sitara_ctxa15_branson_2_1_0_0_USR_MODEL = ARMARCH7
+endif
+
+_HW_CONFIGURATION_ti_sitara_ctxa15_branson_2_1_0_0_BSPDIR = D:/JerryW/SoftwareRelease/Vxworks_2021.07_Test_Stream/_Branson_Driver_Layer_SR2107/BRANSON_BSP/BSP_5728_SR2107/ti_sitara_ctxa15_branson_2_1_0_0
+_HW_CONFIGURATION_BSPS = ti_sitara_ctxa15_branson_2_1_0_0
+_HW_CONFIGURATION_CPUS = 
+_HW_CONFIGURATIONS = $(_HW_CONFIGURATION_BSPS) $(_HW_CONFIGURATION_CPUS)

@@ -1,0 +1,8 @@
+gpio_17xx_40xx.h:119:20:Chip_GPIO_GetPinState	16	static
+inputs.c:62:6:ReadDigitalInputs	8	static
+inputs.c:110:6:DoDebouncing	24	static
+inputs.c:147:6:CheckMachineConfiguration	4	static
+inputs.c:187:6:UpdateULSPosition	4	static
+inputs.c:202:6:UpdateInputGlobalVars	4	static
+inputs.c:253:6:GetInputs	8	static
+inputs.c:274:6:InitInputs	16	static

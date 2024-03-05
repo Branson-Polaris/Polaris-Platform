@@ -1,0 +1,2 @@
+statemachine.c:55:7:ChangeState	16	static
+statemachine.c:122:6:StateMachine	8	static

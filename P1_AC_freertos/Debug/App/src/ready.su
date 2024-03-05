@@ -1,0 +1,3 @@
+ready.c:33:6:ReadyEntry	8	static
+ready.c:53:6:ReadyStateLoop	8	static
+ready.c:90:6:ReadyExit	4	static

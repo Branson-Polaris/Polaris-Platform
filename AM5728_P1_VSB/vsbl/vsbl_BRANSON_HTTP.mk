@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# BRANSON_HTTP Section
+##########################
+
+
+ifdef _WRS_CONFIG_BRANSON_HTTP
+VSBL_BRANSON_HTTP_SRC = 
+VSBL_BRANSON_HTTP_DEPEND = 
+
+ifdef _WRS_CONFIG_BRANSON_HTTP_1_1_1_1
+VSBL_BRANSON_HTTP_SRC += BRANSON_HTTP
+VSBL_BRANSON_HTTP_DEPEND += FS_DOSFS
+VSBL_BRANSON_HTTP_DEPEND += ZLIB
+BRANSON_HTTP_FASTBUILD = YES
+VSBL_BRANSON_HTTP_PATH = D:/JerryW/SoftwareRelease/Vxworks_2021.07_Test_Stream/_Branson_Driver_Layer_SR2107/BRANSON_DRV_2_0_0_0/http
+VSBL_BRANSON_HTTP_VERSION = BRANSON_HTTP_1_1_1_1
+endif
+endif
+

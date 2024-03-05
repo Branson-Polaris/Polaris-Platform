@@ -1,0 +1,24 @@
+# Automatically generated file: do not edit
+
+##########################
+# LIBFFI Section
+##########################
+
+
+ifdef _WRS_CONFIG_LIBFFI
+VSBL_LIBFFI_SRC = 
+VSBL_LIBFFI_DEPEND = 
+
+ifdef _WRS_CONFIG_LIBFFI_3_3_1_2
+VSBL_LIBFFI_SRC += LIBFFI
+VSBL_LIBFFI_DEPEND += CORE_RTP
+VSBL_LIBFFI_DEPEND += FS_UTIL
+VSBL_LIBFFI_DEPEND += FS_VRFS
+VSBL_LIBFFI_DEPEND += UTILS_DEPLOY
+VSBL_LIBFFI_DEPEND += UTILS_WRCC
+LIBFFI_FASTBUILD = YES
+VSBL_LIBFFI_PATH = $(WIND_BASE)/contrib/libffi-3.3.1
+VSBL_LIBFFI_VERSION = LIBFFI_3_3_1_2
+endif
+endif
+

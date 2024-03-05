@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# UTILS_WRCC Section
+##########################
+
+
+ifdef _WRS_CONFIG_UTILS_WRCC
+VSBL_UTILS_WRCC_SRC = 
+VSBL_UTILS_WRCC_DEPEND = 
+
+ifdef _WRS_CONFIG_UTILS_2_0_8_0_WRCC_2_0_8_0
+VSBL_UTILS_WRCC_SRC += UTILS_WRCC
+VSBL_UTILS_WRCC_DEPEND += UTILS_UNIX
+UTILS_WRCC_FASTBUILD = YES
+UTILS_WRCC_SUBSCRIBE = UTILS_UNIX
+VSBL_UTILS_WRCC_PATH = $(WIND_BASE)/os/utils/wrcc
+VSBL_UTILS_WRCC_VERSION = UTILS_2_0_8_0_WRCC_2_0_8_0
+endif
+endif
+

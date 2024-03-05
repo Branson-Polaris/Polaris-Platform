@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Simple case: it exists and it's a directory
+if test -d $1; 
+then {
+	if chmod -R u+rwX,go= $1;
+	then
+		exit 0;
+	else
+		exit 1;
+	fi;
+} fi
+
+# Harder case: it exists, but isn't a directory
+# Note: In order to handle the non-compliance of certain unixes' "test -e" we check each case below.
+if test -f $1;  # Regular file
+then
+        exit 2
+fi
+if test -b $1;  # Block device
+then
+        exit 2
+fi
+if test -c $1; # Character device
+then
+        exit 2
+fi
+if test -p $1; # Named pipe
+then
+        exit 2
+fi
+if test -L $1; # Symbolic link
+then
+        exit 2
+fi
+
+# Doesn't exist
+if mkdir -p -m u+rwX,go= $1;
+then
+	exit 0;
+else 
+	exit 2;
+fi

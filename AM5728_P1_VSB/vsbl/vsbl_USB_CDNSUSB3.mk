@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# USB_CDNSUSB3 Section
+##########################
+
+
+ifdef _WRS_CONFIG_USB_CDNSUSB3
+VSBL_USB_CDNSUSB3_SRC = 
+VSBL_USB_CDNSUSB3_DEPEND = 
+
+ifdef _WRS_CONFIG_USB_2_0_8_0_CTLR_2_0_8_0_CDNSUSB3_2_0_8_0
+VSBL_USB_CDNSUSB3_SRC += USB_CDNSUSB3
+VSBL_USB_CDNSUSB3_DEPEND += USB_PHY
+VSBL_USB_CDNSUSB3_DEPEND += USB_XHCI
+USB_CDNSUSB3_FASTBUILD = YES
+VSBL_USB_CDNSUSB3_PATH = $(WIND_BASE)/os/connectivity/usb/ctlr/cdns3
+VSBL_USB_CDNSUSB3_VERSION = USB_2_0_8_0_CTLR_2_0_8_0_CDNSUSB3_2_0_8_0
+endif
+endif
+

@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# PYTHON_SIX Section
+##########################
+
+
+ifdef _WRS_CONFIG_PYTHON_SIX
+VSBL_PYTHON_SIX_SRC = 
+VSBL_PYTHON_SIX_DEPEND = 
+
+ifdef _WRS_CONFIG_PYTHON_3_8_0_6_SIX_1_12_0_0
+VSBL_PYTHON_SIX_SRC += PYTHON_SIX
+VSBL_PYTHON_SIX_DEPEND += CORE_RTP
+VSBL_PYTHON_SIX_DEPEND += PYTHON
+PYTHON_SIX_FASTBUILD = YES
+VSBL_PYTHON_SIX_PATH = $(WIND_BASE)/contrib/python-3.8.0/six
+VSBL_PYTHON_SIX_VERSION = PYTHON_3_8_0_6_SIX_1_12_0_0
+endif
+endif
+

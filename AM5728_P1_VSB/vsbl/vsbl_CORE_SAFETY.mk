@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# CORE_SAFETY Section
+##########################
+
+
+ifdef _WRS_CONFIG_CORE_SAFETY
+VSBL_CORE_SAFETY_SRC = 
+VSBL_CORE_SAFETY_DEPEND = 
+
+ifdef _WRS_CONFIG_CORE_3_2_2_0_SAFETY_3_2_2_0
+VSBL_CORE_SAFETY_SRC += CORE_SAFETY
+VSBL_CORE_SAFETY_DEPEND += CORE_RTP
+VSBL_CORE_SAFETY_DEPEND += UTILS_OSTOOLS
+CORE_SAFETY_FASTBUILD = YES
+VSBL_CORE_SAFETY_PATH = $(WIND_BASE)/os/core/safety
+VSBL_CORE_SAFETY_VERSION = CORE_3_2_2_0_SAFETY_3_2_2_0
+endif
+endif
+

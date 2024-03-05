@@ -1,0 +1,3 @@
+returnstroke.c:11:6:ReturnStrokeEntry	4	static
+returnstroke.c:26:6:ReturnStrokeState	4	static
+returnstroke.c:40:6:ReturnStrokeExit	4	static

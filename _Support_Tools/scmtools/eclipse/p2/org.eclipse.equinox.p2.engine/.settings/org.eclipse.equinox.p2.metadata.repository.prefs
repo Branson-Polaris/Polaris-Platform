@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/enabled=true
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/isSystem=false
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/name=file\:/tempest/build.jcb.sorbld32.1/RTC-CLIENT/I/RTC-CLIENT-I20160323-2215/filesystem-cli-rcp-extra/productbuild/buildRepo - metadata
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/suffix=content.xml
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/uri=file\:/tempest/build.jcb.sorbld32.1/RTC-CLIENT/I/RTC-CLIENT-I20160323-2215/filesystem-cli-rcp-extra/productbuild/buildRepo/
+repositories/file\:_tempest_build.jcb.sorbld32.1_RTC-CLIENT_I_RTC-CLIENT-I20160323-2215_filesystem-cli-rcp-extra_productbuild_buildRepo/version=1.0.0

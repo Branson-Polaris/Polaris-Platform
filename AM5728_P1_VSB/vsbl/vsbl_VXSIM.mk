@@ -1,0 +1,25 @@
+# Automatically generated file: do not edit
+
+##########################
+# VXSIM Section
+##########################
+
+
+ifdef _WRS_CONFIG_VXSIM
+VSBL_VXSIM_SRC = 
+VSBL_VXSIM_DEPEND = 
+
+ifdef _WRS_CONFIG_VXSIM_2_0_4_0
+VSBL_VXSIM_SRC += VXSIM
+VSBL_VXSIM_DEPEND += FDT
+VSBL_VXSIM_DEPEND += UTILS
+VSBL_VXSIM_DEPEND += VXBUS
+VSBL_VXSIM_DEPEND += CORE
+VSBL_VXSIM_DEPEND += CORE
+VSBL_VXSIM_DEPEND += CORE
+VXSIM_FASTBUILD = YES
+VSBL_VXSIM_PATH = $(WIND_BASE)/os/arch/simulator
+VSBL_VXSIM_VERSION = VXSIM_2_0_4_0
+endif
+endif
+

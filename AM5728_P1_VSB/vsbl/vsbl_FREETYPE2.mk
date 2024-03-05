@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# FREETYPE2 Section
+##########################
+
+
+ifdef _WRS_CONFIG_FREETYPE2
+VSBL_FREETYPE2_SRC = 
+VSBL_FREETYPE2_DEPEND = 
+
+ifdef _WRS_CONFIG_FREETYPE2_2_10_1_1
+VSBL_FREETYPE2_SRC += FREETYPE2
+VSBL_FREETYPE2_DEPEND += LIBPNG
+VSBL_FREETYPE2_DEPEND += RASTER
+FREETYPE2_FASTBUILD = YES
+VSBL_FREETYPE2_PATH = $(WIND_BASE)/contrib/freetype2-2.10.1
+VSBL_FREETYPE2_VERSION = FREETYPE2_2_10_1_1
+endif
+endif
+

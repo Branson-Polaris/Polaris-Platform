@@ -1,0 +1,139 @@
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Problem running 'load':
+Cannot determine repository URI. Try 'scm help load' for more information.
+Accepting changes:
+  Repository: https://jazz.bucclm.com/ccm/
+  Workspace: (0160) "Duplicate of GSX-P1 Prototype VxWorks 2021.07 Workspace"
+    Component: (8711) "RTP_ASC"
+      Change sets:
+        (1077) ----$ Gangurde, Sanket [EMR/DISC/BRSN/PUNE] "Change set for jenkins 9" 03-Aug-2023 09:01 AM
+          Work items:
+            (0157) 11152 "Dummy work item for jenkins"
+        (1076) ----$ Gangurde, Sanket [EMR/DISC/BRSN/PUNE] "Change set for jenkins 9" 03-Aug-2023 09:10 AM
+          Changes:
+            ---c- \RTP_ASC\Core\Logic\Common\MainTask.h
+          Work items:
+            (0157) 11152 "Dummy work item for jenkins"
+The accept command completed successfully.
+Workspace: (0160) "Duplicate of GSX-P1 Prototype VxWorks 2021.07 Workspace" <-> (0161) "Duplicate of GSX-P1 Prototype VxWorks 2021.07"
+  Component: (8691) "_Branson_User_Common"
+    Baseline: (1073) 77 "Build_ASC-0.1.0.5"
+    Outgoing:
+      Change sets:
+        (1061) -*--@  "<No comment>" 03-Aug-2023 09:24 AM
+          Changes:
+            ---c- \_Branson_User_Common\Commons\version_common.h
+          Work items:
+            (8716) 10499 "ACE_PRO Build Version Increment"
+Argument syntax error:
+Missing arguments to subcommand "checkin" - path. Try 'scm help checkin' for more information.
+Usage: scm checkin [-u/--username <arg> -P/--password <arg> | --certificate
+                   <arg> -P/--password <arg> | --smartCard -u/--username <arg>
+                   | --kerberos] [-j/--json] [-v/--verbose] [-d/--directory
+                   <arg>] [-N/--no-local-refresh] [--max-changes <arg>]
+                   [-C/--delim-consistent] [-n/--delim-none]
+                   [-D/--checkin-deleted] [-S/--skip-deleted]
+                   [--current-merge] [--comment <arg>] [--complete]
+                   [-W/--workitem <arg>] [-c/--change-set <arg>] <path...>
+Problem running 'resolve conflict':
+"_Branson_User_Common" is not in conflict.
+Problem running 'resolve conflict':
+"QT_UIController" is not in conflict.
+Process Reports:
+  Name: Deliver
+  Operation Reports:
+    Name: Source Control Operation
+    Name: Deliver
+    Participant Reports:
+      Name: Require Work Items and Comments
+        A work item or change request must be associated with the change set and a comment must be set.
+Problem running 'deliver':
+'Deliver' failed. Preconditions have not been met: A work item or change request must be associated with the change set and a comment must be set.
+Unresolved components:
+QT_UIController
+Problem running 'deliver':
+Unable to resolve components for workspace.
+Process Reports:
+  Name: Deliver
+  Operation Reports:
+    Name: Source Control Operation
+    Name: Deliver
+    Participant Reports:
+      Name: Require Work Items and Comments
+        A work item or change request must be associated with the change set and a comment must be set.
+Problem running 'deliver':
+'Deliver' failed. Preconditions have not been met: A work item or change request must be associated with the change set and a comment must be set.
+Unresolved components:
+QT_UIController
+Problem running 'deliver':
+Unable to resolve components for workspace.
+Snapshot (1078) "Build_ASC-0.1.0.6" successfully created.
+Baseline (1079) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1080) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1081) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1082) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1083) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1084) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1085) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1086) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1087) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1088) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1089) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1090) "Build_ASC-0.1.0.6" successfully included.
+Baseline (1091) "Build_ASC-0.1.0.6" successfully included.
+Accepting changes:
+  Repository: https://jazz.bucclm.com/ccm/
+  Workspace: (0160) "Duplicate of GSX-P1 Prototype VxWorks 2021.07 Workspace"
+    Component: (8695) "AM5728_DSP_LOADER"
+      Baselines:
+        (1088) 67: Build_ASC-0.1.0.6
+    Component: (8697) "AM5728_P1_ROMFS"
+      Baselines:
+        (1087) 67: Build_ASC-0.1.0.6
+    Component: (8699) "AM5728_P1_VIP"
+      Baselines:
+        (1091) 67: Build_ASC-0.1.0.6
+    Component: (8701) "AM5728_P1_VSB"
+      Baselines:
+        (1082) 67: Build_ASC-0.1.0.6
+    Component: (8703) "BransonDrv_DKM_Test"
+      Baselines:
+        (1084) 67: Build_ASC-0.1.0.6
+    Component: (8705) "BransonDrv_RTP_Test"
+      Baselines:
+        (1083) 67: Build_ASC-0.1.0.6
+    Component: (8707) "ComLibDsp_1_0_0"
+      Baselines:
+        (1079) 67: Build_ASC-0.1.0.6
+    Component: (8709) "P1_AC_freertos"
+      Baselines:
+        (1081) 67: Build_ASC-0.1.0.6
+    Component: (8711) "RTP_ASC"
+      Baselines:
+        (1085) 78: Build_ASC-0.1.0.6
+    Component: (0174) "Squish_Scripts_Sandbox"
+      Baselines:
+        (1086) 37: Build_ASC-0.1.0.6
+    Component: (8689) "_Branson_Driver_Layer_SR2107"
+      Baselines:
+        (1090) 67: Build_ASC-0.1.0.6
+    Component: (8691) "_Branson_User_Common"
+      Baselines:
+        (1089) 78: Build_ASC-0.1.0.6
+    Component: (8693) "_Support_Tools"
+      Baselines:
+        (1080) 67: Build_ASC-0.1.0.6
+The accept command completed successfully.

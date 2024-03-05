@@ -1,0 +1,102 @@
+CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+Updating Toolchain: 'AM5728_DSP_LOADER'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_DKM_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_RTP_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+
+Updating Toolchain: 'RTP_ASC'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+Error Code: 0: CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: File C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/BransonDrv_DKM_Test.out not found.
+Error Code: 1: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+Updating Toolchain: 'AM5728_DSP_LOADER'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_DKM_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_RTP_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+
+Updating Toolchain: 'RTP_ASC'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+Error Code: 0: CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: File C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/BransonDrv_DKM_Test.out not found.
+Error Code: 1: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+Updating Toolchain: 'AM5728_DSP_LOADER'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_DKM_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_SMP' - No update.
+
+Updating Toolchain: 'BransonDrv_RTP_Test'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+
+Updating Toolchain: 'RTP_ASC'
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_ld' - No update.
+	Buildspec: 'AM5728_P1_VSB_ARMARCH7llvm_lld' - No update.
+Error Code: 0: CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: File C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/BransonDrv_DKM_Test.out not found.
+Error Code: 1: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+ERROR: VSB directory does not exist.
+Error Code: 1: CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: File C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/BransonDrv_DKM_Test.out not found.
+Error Code: 1: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+ERROR: VSB directory does not exist.
+Error Code: 1: CALL wrtool prj context update -vsb AM5728_P1_VSB -toolchain 
+CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs remove RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: Not in contents.
+Error Code: 1: CALL wrtool prj romfs remove BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+Error Code: 0: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\RTP_ASC.vxe AM5728_P1_ROMFS 
+CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 
+ERROR: File C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/BransonDrv_DKM_Test.out not found.
+Error Code: 1: CALL wrtool prj romfs add -file C:\Stream_ACEPRO_Test\ACEPRO_Test\BuildOutput\Custom\Debug\ASC\BransonDrv_DKM_Test.out AM5728_P1_ROMFS 

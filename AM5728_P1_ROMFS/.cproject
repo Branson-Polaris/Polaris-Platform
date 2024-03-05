@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<buildSystem id="Default">
+			<storageModule id="Default" moduleId="org.eclipse.cdt.core.settings"/>
+		</buildSystem>
+		<cconfiguration id="Default">
+			<storageModule id="Default" moduleId="defaultConfigurationDataProvider" name="Default">
+				<sourceEntries/>
+				<folderData id="Default.18199761" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="Default.18199761.448024963" languageId="com.windriver.cdt.core.wrGnuC" name="Wind River GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="Default.18199761.1919449746" languageId="com.windriver.cdt.core.wrGnuCpp" name="Wind River GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="Default.252234553"/>
+				<targetPlatformData binaryParsers="com.windriver.ide.core.WRElfParserVxWorks;org.eclipse.cdt.core.GNU_ELF" id="Default.707313985"/>
+			</storageModule>
+			<storageModule buildSystemId="com.windriver.cdt.core.WRGnuCfgDataProvider" id="Default" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.windriver.ide.core.WRElfParserVxWorks" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

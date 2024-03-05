@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# UTILS_RBUFF Section
+##########################
+
+
+ifdef _WRS_CONFIG_UTILS_RBUFF
+VSBL_UTILS_RBUFF_SRC = 
+VSBL_UTILS_RBUFF_DEPEND = 
+
+ifdef _WRS_CONFIG_UTILS_2_0_8_0_RBUFF_2_0_8_0
+VSBL_UTILS_RBUFF_SRC += UTILS_RBUFF
+VSBL_UTILS_RBUFF_DEPEND += CORE
+VSBL_UTILS_RBUFF_DEPEND += CORE
+UTILS_RBUFF_FASTBUILD = YES
+VSBL_UTILS_RBUFF_PATH = $(WIND_BASE)/os/utils/rbuff
+VSBL_UTILS_RBUFF_VERSION = UTILS_2_0_8_0_RBUFF_2_0_8_0
+endif
+endif
+

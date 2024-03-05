@@ -1,0 +1,18 @@
+{
+  "Scm":
+  {
+    "Alias":"P1",
+   	"Server":"https://jazz.bucclm.com/ccm",
+  	"User":"builder4",
+  	"Pwd":"Freeway#4",
+  	"Workspace":"/root/WorkSpaceRaspberryP1",
+  	"Projects":[
+  	    {"Project":"P1UIControllerTest"},
+  		{"Project":"Qt_Rpi_UIController"},
+  		{"Project":"Support_Tools"},
+  	]
+  	"Files":[
+  		{"File":"machinedetails.h"}
+  	]
+  }	
+ }

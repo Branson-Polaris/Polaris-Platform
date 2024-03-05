@@ -1,0 +1,19 @@
+# Automatically generated file: do not edit
+
+##########################
+# CRYPTOMISC_TPM Section
+##########################
+
+
+ifdef _WRS_CONFIG_CRYPTOMISC_TPM
+VSBL_CRYPTOMISC_TPM_SRC = 
+VSBL_CRYPTOMISC_TPM_DEPEND = 
+
+ifdef _WRS_CONFIG_CRYPTOMISC_2_0_2_6_TPM_2_0_2_6
+VSBL_CRYPTOMISC_TPM_SRC += CRYPTOMISC_TPM
+CRYPTOMISC_TPM_FASTBUILD = YES
+VSBL_CRYPTOMISC_TPM_PATH = $(WIND_BASE)/os/security/crypto_misc/tpm
+VSBL_CRYPTOMISC_TPM_VERSION = CRYPTOMISC_2_0_2_6_TPM_2_0_2_6
+endif
+endif
+

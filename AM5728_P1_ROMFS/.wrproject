@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wrxml>
+    <properties platform="VxWorks7" platform_name="vxworks/21.07" root="0" type="VxWorksFileSystemProject"/>
+    <attributes>
+        <mapAttribute>
+            <mapAttribute key="FileSystem">
+                <mapAttribute key="sample_p1_base.db">
+                    <stringAttribute key="hostpath" value="/_Support_Tools/BootStrap/ASC/sample_p1_base.db"/>
+                </mapAttribute>
+                <mapAttribute key="server.pem">
+                    <stringAttribute key="hostpath" value="/_Branson_User_Common/Utils/server.pem"/>
+                </mapAttribute>
+                <mapAttribute key="sample_common.db">
+                    <stringAttribute key="hostpath" value="/_Support_Tools/BootStrap/ASC/sample_common.db"/>
+                </mapAttribute>
+                <mapAttribute key="RTP_ASC.vxe">
+                    <stringAttribute key="hostpath" value="C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/RTP_ASC.vxe"/>
+                </mapAttribute>
+            </mapAttribute>
+        </mapAttribute>
+    </attributes>
+</wrxml>

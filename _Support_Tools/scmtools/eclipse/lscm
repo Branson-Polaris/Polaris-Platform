@@ -1,0 +1,28 @@
+#!/bin/sh
+PRGPATH="`dirname "$0"`"
+export PRGPATH
+SCM_DAEMON_PATH="${PRGPATH}/scm"
+export SCM_DAEMON_PATH
+if [ `uname` = SunOS ];
+then
+	EXTRA_JAVA_OPTS=""
+else
+	EXTRA_JAVA_OPTS="-Xquickstart -Xshareclasses"
+fi
+
+USE_NATIVE="1"
+
+if [ -n "$LSCM_USE_JAVA_FEC" ]; then
+    USE_NATIVE="0"
+elif [ -n "$SCM_DAEMON_START_DEBUG" ]; then
+    USE_NATIVE="0"
+elif [ ! -x "${PRGPATH}/fec" ]; then
+    USE_NATIVE="0"
+fi
+
+
+if [ "$USE_NATIVE" = "1" ]; then
+    "${PRGPATH}/fec" "$@"
+else
+    ${PRGPATH}/../../client/eclipse/jdk/jre/bin/java $EXTRA_JAVA_OPTS -classpath "${PRGPATH}/plugins/com.ibm.team.filesystem.cli.minimal_3.1.700.v20151207_2315.jar:${PRGPATH}/plugins/com.ibm.team.rtc.cli.infrastructure_3.1.1100.v20160205_1752.jar:${PRGPATH}/plugins/com.ibm.team.filesystem.cli.core_3.2.700.v20160302_1732.jar:${PRGPATH}/plugins/com.ibm.team.filesystem.client.daemon_3.1.700.v20151207_2315.jar:${PRGPATH}/plugins/org.eclipse.equinox.common_3.6.0.v20100503.jar:${PRGPATH}/plugins/com.ibm.team.filesystem.client_3.2.700.v20160310_1729.jar:${PRGPATH}/plugins/org.eclipse.osgi_3.6.50.R36x_v20120315-1500.jar:${PRGPATH}/plugins/com.ibm.team.repository.common_1.4.3000.v20160308_1839.jar" com.ibm.team.filesystem.cli.minimal.client.FrontEndClient "$0" "$@"
+fi

@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# IPNET_AAA Section
+##########################
+
+
+ifdef _WRS_CONFIG_IPNET_AAA
+VSBL_IPNET_AAA_SRC = 
+VSBL_IPNET_AAA_DEPEND = 
+
+ifdef _WRS_CONFIG_IPNET_AAA_2_0_0_6
+VSBL_IPNET_AAA_SRC += IPNET_AAA
+VSBL_IPNET_AAA_DEPEND += IPNET_COREIP
+VSBL_IPNET_AAA_DEPEND += SECURITY_MISC
+VSBL_IPNET_AAA_DEPEND += SECURITY_MISC_SEC_HASH
+IPNET_AAA_FASTBUILD = YES
+VSBL_IPNET_AAA_PATH = $(WIND_BASE)/os/net/ipnet/aaa
+VSBL_IPNET_AAA_VERSION = IPNET_AAA_2_0_0_6
+endif
+endif
+

@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# ITL_X86_COMMON Section
+##########################
+
+
+ifdef _WRS_CONFIG_ITL_X86_COMMON
+VSBL_ITL_X86_COMMON_SRC = 
+VSBL_ITL_X86_COMMON_DEPEND = 
+
+ifdef _WRS_CONFIG_ITL_X86_COMMON_1_1_4_2
+VSBL_ITL_X86_COMMON_SRC += ITL_X86_COMMON
+VSBL_ITL_X86_COMMON_DEPEND += UTILS
+VSBL_ITL_X86_COMMON_DEPEND += VXBUS_DRV
+ITL_X86_COMMON_FASTBUILD = YES
+VSBL_ITL_X86_COMMON_PATH = $(WIND_BASE)/os/psl/intel/itl_x86_common
+VSBL_ITL_X86_COMMON_VERSION = ITL_X86_COMMON_1_1_4_2
+endif
+endif
+

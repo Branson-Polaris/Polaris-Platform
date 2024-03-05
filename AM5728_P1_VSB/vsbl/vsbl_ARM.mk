@@ -1,0 +1,40 @@
+# Automatically generated file: do not edit
+
+##########################
+# ARM Section
+##########################
+
+
+ifdef _WRS_CONFIG_ARM
+VSBL_ARM_SRC = 
+VSBL_ARM_DEPEND = 
+
+ifdef _WRS_CONFIG_ARM_2_0_8_0
+VSBL_ARM_SRC += ARM
+VSBL_ARM_DEPEND += VXBUS
+VSBL_ARM_DEPEND += CORE
+ifdef _WRS_CONFIG_CORE
+VSBL_ARM_DEPEND += CORE
+endif
+ifdef _WRS_CONFIG_ARM_CORTEX_CPU*
+VSBL_ARM_DEPEND += CORE
+endif
+VSBL_ARM_DEPEND += VXBUS
+VSBL_ARM_DEPEND += VXBUS
+VSBL_ARM_DEPEND += VXBUS
+ifdef _WRS_CONFIG_FDT
+VSBL_ARM_DEPEND += FDT
+endif
+ifdef _WRS_CONFIG_FDT*
+VSBL_ARM_DEPEND += FDT
+endif
+VSBL_ARM_DEPEND += CORE
+VSBL_ARM_DEPEND += CORE
+VSBL_ARM_DEPEND += CORE
+VSBL_ARM_DEPEND += CORE
+ARM_FASTBUILD = YES
+VSBL_ARM_PATH = $(WIND_BASE)/os/arch/arm
+VSBL_ARM_VERSION = ARM_2_0_8_0
+endif
+endif
+

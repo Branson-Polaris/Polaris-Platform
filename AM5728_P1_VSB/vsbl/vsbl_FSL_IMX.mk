@@ -1,0 +1,28 @@
+# Automatically generated file: do not edit
+
+##########################
+# FSL_IMX Section
+##########################
+
+
+ifdef _WRS_CONFIG_FSL_IMX
+VSBL_FSL_IMX_SRC = 
+VSBL_FSL_IMX_DEPEND = 
+
+ifdef _WRS_CONFIG_FSL_IMX_2_0_7_0
+VSBL_FSL_IMX_SRC += FSL_IMX
+ifndef _WRS_CONFIG_ARM_ARMV7M
+VSBL_FSL_IMX_DEPEND += PSCI
+endif
+VSBL_FSL_IMX_DEPEND += FDT
+VSBL_FSL_IMX_DEPEND += SERVICE_JOBQUEUE
+VSBL_FSL_IMX_DEPEND += UTILS
+VSBL_FSL_IMX_DEPEND += VXBUS
+VSBL_FSL_IMX_DEPEND += CORE
+VSBL_FSL_IMX_DEPEND += ARM
+FSL_IMX_FASTBUILD = YES
+VSBL_FSL_IMX_PATH = $(WIND_BASE)/os/psl/freescale/fsl_imx
+VSBL_FSL_IMX_VERSION = FSL_IMX_2_0_7_0
+endif
+endif
+

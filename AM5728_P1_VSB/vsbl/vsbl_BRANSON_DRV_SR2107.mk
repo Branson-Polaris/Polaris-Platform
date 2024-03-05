@@ -1,0 +1,19 @@
+# Automatically generated file: do not edit
+
+##########################
+# BRANSON_DRV_SR2107 Section
+##########################
+
+
+ifdef _WRS_CONFIG_BRANSON_DRV_SR2107
+VSBL_BRANSON_DRV_SR2107_SRC = 
+VSBL_BRANSON_DRV_SR2107_DEPEND = 
+
+ifdef _WRS_CONFIG_BRANSON_DRV_SR2107_2_0_0_0
+VSBL_BRANSON_DRV_SR2107_SRC += BRANSON_DRV_SR2107
+BRANSON_DRV_SR2107_FASTBUILD = YES
+VSBL_BRANSON_DRV_SR2107_PATH = D:/JerryW/SoftwareRelease/Vxworks_2021.07_Test_Stream/_Branson_Driver_Layer_SR2107/BRANSON_DRV_2_0_0_0/drv
+VSBL_BRANSON_DRV_SR2107_VERSION = BRANSON_DRV_SR2107_2_0_0_0
+endif
+endif
+

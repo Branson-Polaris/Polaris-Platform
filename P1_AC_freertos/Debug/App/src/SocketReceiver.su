@@ -1,0 +1,6 @@
+SocketReceiver.c:56:6:MessageDeCoder	24	static
+SocketReceiver.c:75:14:MessageCRCCal	800	static
+SocketReceiver.c:107:6:ProcessDatafromASC	16	static
+SocketReceiver.c:141:6:ASCPdoDownloadRequest	16	static
+SocketReceiver.c:157:6:ASCSendSerNoVerNoResponse	16	static
+SocketReceiver.c:170:6:ProcessDatatoASC	232	static

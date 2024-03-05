@@ -1,0 +1,28 @@
+# Automatically generated file: do not edit
+
+##########################
+# GPUDEV Section
+##########################
+
+
+ifdef _WRS_CONFIG_GPUDEV
+VSBL_GPUDEV_SRC = 
+VSBL_GPUDEV_DEPEND = 
+
+ifdef _WRS_CONFIG_GPUDEV_2_0_0_0
+ifdef _WRS_CONFIG_GPUDEV_FSLVIVGPU
+VSBL_GPUDEV_SRC += GPUDEV_FSLVIVGPU
+endif
+ifdef _WRS_CONFIG_GPUDEV_NXPVIVGPU
+VSBL_GPUDEV_SRC += GPUDEV_NXPVIVGPU
+endif
+ifdef _WRS_CONFIG_GPUDEV_RCAR_DU
+VSBL_GPUDEV_SRC += GPUDEV_RCAR_DU
+endif
+VSBL_GPUDEV_SRC += GPUDEV
+GPUDEV_FASTBUILD = YES
+VSBL_GPUDEV_PATH = $(WIND_BASE)/os/multimedia/gpudev
+VSBL_GPUDEV_VERSION = GPUDEV_2_0_0_0
+endif
+endif
+

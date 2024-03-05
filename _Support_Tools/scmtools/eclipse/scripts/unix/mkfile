@@ -1,0 +1,16 @@
+#!/bin/sh
+
+umask u=rw,go=
+
+# Simple case: it exists and it's a directory
+if test -d $1; 
+then 
+	exit 2;
+fi
+
+if touch $1;
+then
+	exit 0;
+else
+	exit 1;
+fi

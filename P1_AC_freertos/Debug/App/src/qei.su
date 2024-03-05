@@ -1,0 +1,7 @@
+core_cm3.h:1323:22:NVIC_EnableIRQ	16	static
+core_cm3.h:1405:22:NVIC_SetPriority	16	static
+core_cm3.h:1447:26:NVIC_EncodePriority	40	static
+iocon_17xx_40xx.h:237:20:Chip_IOCON_PinMuxSet	24	static
+qei.c:61:6:QuadratureEncoderInit	16	static
+qei.c:137:6:QEI_GetPosition	8	static
+qei.c:160:6:QEI_IRQHandler	16	static

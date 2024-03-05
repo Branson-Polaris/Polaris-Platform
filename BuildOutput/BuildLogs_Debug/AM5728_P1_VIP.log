@@ -1,0 +1,654 @@
+Build Started in Project 'AM5728_P1_VIP':   2023-08-03 10:24:48
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:08).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+rm -f vxWorks 
+rm -f versionTag
+rm -f    \
+	 \
+	   ../.clean
+rm -f    
+rm -f ../prjComps.h ../prjParams.h \
+	../prjConfig.c ../linkSyms.c
+rm -f ../libs.nm ../libs.size
+rm -f 
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-03 10:24:58   (Elapsed Time: 00:10)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-03 10:25:09
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:08).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+rm -f vxWorks 
+rm -f versionTag
+rm -f    \
+	 \
+	   ../.clean
+rm -f    
+rm -f ../prjComps.h ../prjParams.h \
+	../prjConfig.c ../linkSyms.c
+rm -f ../libs.nm ../libs.size
+rm -f 
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-03 10:25:20   (Elapsed Time: 00:10)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-03 10:25:31
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+make: generating VxWorks configuration files...
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+tclsh C:\WindRiver2021-07\vxworks\21.07\build\osconfig/tcl/configGen.tcl ../AM5728_P1_VIP.wpj
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+echo "Creating object dirs";\
+for dir in AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock; do\
+	if [ ! -d "$dir" ]; then mkdir -p "$dir"; fi;\
+done
+Creating object dirs
+mkdir -p AM5728_DSP_LOADER/Debug/
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_multicore_reset.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_prcm_config.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/AM572x_startup_common.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/gel.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM572x_init/gel.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/AM572x_init/gel.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/Com.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/Com.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/Com.o
+C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/Com.c:426:7: warning: extra tokens at end of #else directive [-Wextra-tokens]
+#else if defined (__VXWORKS__)
+      ^
+      //
+1 warning generated.
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/DspLoader.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/DspLoader.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/DspLoader.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/InterCoreLock.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/InterCoreLock.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/InterCoreLock.o
+C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/InterCoreLock.c:14:7: warning: extra tokens at end of #else directive [-Wextra-tokens]
+#else if defined  (__VXWORKS__)
+      ^
+      //
+C:/Stream_ACEPRO_Test/ACEPRO_Test/ComLibDsp_1_0_0/InterCoreLock.c:28:7: warning: extra tokens at end of #else directive [-Wextra-tokens]
+#else if defined  (__VXWORKS__)
+      ^
+      //
+2 warnings generated.
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/SpinLock/spinlock.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/SpinLock/spinlock.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/SpinLock/spinlock.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/dkm.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/dkm.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/dkm.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o"; C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -g -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float -Wall -Wconversion -Wno-sign-conversion    -MD -MP -mlong-calls -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -D_WRS_VX_SMP -D_WRS_CONFIG_SMP -D_VSB_CONFIG_FILE=\"C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/h/config/vsbConfig.h\" -DARMEL  -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__=    \@AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.includes.list  -o "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o" -c "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/elf.c" && if [ "0" = "1" ]; then apicheck.sh -r "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB/krnl/apicheck/forbidden_api.lst" -n "nmarm" -u -s "C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/elf.c" "AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o" -warning;fi
+building AM5728_DSP_LOADER/Debug/Objects/AM5728_DSP_LOADER/elf.o
+if [ ! -d "`dirname "AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o"`" ]; then mkdir -p "`dirname "AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o"`"; fi;echo "building AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o";  C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/ldarm  -X -r -EL  --eh-frame-hdr  -o "AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o" @AM5728_DSP_LOADER/Debug/.AM5728_DSP_LOADERObject.list       && if [ "0" = "1" ]; then plink "AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o";fi
+building AM5728_DSP_LOADER/Debug/AM5728_DSP_LOADER.o
+make: built targets of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents;\
+mkdir -p Contents
+make: removing file system contents
+cp -f "C:/Stream_ACEPRO_Test/ACEPRO_Test/_Support_Tools/BootStrap/ASC/sample_p1_base.db" "Contents/sample_p1_base.db"
+cp -f "C:/Stream_ACEPRO_Test/ACEPRO_Test/_Branson_User_Common/Utils/server.pem" "Contents/server.pem"
+cp -f "C:/Stream_ACEPRO_Test/ACEPRO_Test/_Support_Tools/BootStrap/ASC/sample_common.db" "Contents/sample_common.db"
+cp -f "C:/Stream_ACEPRO_Test/ACEPRO_Test/BuildOutput/Custom/Debug/ASC/RTP_ASC.vxe" "Contents/RTP_ASC.vxe"
+echo "generating content.romfs file";\
+mkromfs -o content.romfs Contents
+generating content.romfs file
+echo "built file system contents"
+built file system contents
+make: built file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+building uVxWorks image of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+-c \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+ \
+-fno-stack-protector \
+../prjConfig.c \
+-o \
+prjConfig.o
+../prjConfig.c:965:68: warning: implicit declaration of function 'vxbGpioAlloc' is invalid in C99 [-Wimplicit-function-declaration]
+    { int status; printf("IMG1.. Enable EXT PWR GPIO\n"); status = vxbGpioAlloc(0x69); printf("IMG1.. GPIO allocation status: %d\n", status); status = vxbGpioSetDir(0x69,1); printf("IMG1.. GPIO direction set status: %d\n", status); } /* This component enables the externel power GPIO. */
+                                                                   ^
+../prjConfig.c:965:152: warning: implicit declaration of function 'vxbGpioSetDir' is invalid in C99 [-Wimplicit-function-declaration]
+    { int status; printf("IMG1.. Enable EXT PWR GPIO\n"); status = vxbGpioAlloc(0x69); printf("IMG1.. GPIO allocation status: %d\n", status); status = vxbGpioSetDir(0x69,1); printf("IMG1.. GPIO direction set status: %d\n", status); } /* This component enables the externel power GPIO. */
+                                                                                                                                                       ^
+2 warnings generated.
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+-c \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+ \
+-fno-stack-protector \
+../linkSyms.c \
+-o \
+linkSyms.o
+rm -f loadInvokeModule.o
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+ \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+-c \
+../loadInvokeModule.c
+../loadInvokeModule.c:84:9: warning: implicit declaration of function 'hrfsDiskProbe' is invalid in C99 [-Wimplicit-function-declaration]
+                ret = hrfsDiskProbe(EMMCdevProperty);
+                      ^
+../loadInvokeModule.c:92:10: warning: implicit declaration of function 'hrfsFormat' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = hrfsFormat (MMC_EMMC_DEV_NAME, 0ll,0, 0);
+                              ^
+../loadInvokeModule.c:253:16: warning: implicit declaration of function 'loggerInit' is invalid in C99 [-Wimplicit-function-declaration]
+                if (ERROR == loggerInit())                                      /* LoggerModule task will be spawned after eMMC storage is completely ready */
+                             ^
+../loadInvokeModule.c:259:3: warning: implicit declaration of function 'rtpSp' is invalid in C99 [-Wimplicit-function-declaration]
+                rtpSp(SC_RTP_PATH, 230, (128*1024), 0, 0x01000000);     
+                ^
+../loadInvokeModule.c:185:12: warning: unused variable 'moduleId' [-Wunused-variable]
+        MODULE_ID       moduleId        = NULL;
+                        ^
+../loadInvokeModule.c:187:9: warning: unused variable 'fdEcmDemo' [-Wunused-variable]
+        INT32           fdEcmDemo       = ERROR;
+                        ^
+../loadInvokeModule.c:189:11: warning: unused variable 'symtype' [-Wunused-variable]
+        SYM_TYPE        symtype;
+                        ^
+../loadInvokeModule.c:186:10: warning: unused variable 'fdLinkLayer' [-Wunused-variable]
+        INT32           fdLinkLayer     = ERROR;
+                        ^
+../loadInvokeModule.c:188:11: warning: unused variable 'startfunction' [-Wunused-variable]
+        FUNCPTR         startfunction;
+                        ^
+../loadInvokeModule.c:191:11: warning: unused variable 'tid' [-Wunused-variable]
+        TASK_ID         tid                     = ERROR;
+                        ^
+../loadInvokeModule.c:284:11: warning: implicit declaration of function 'ipAttach' is invalid in C99 [-Wimplicit-function-declaration]
+        status = ipAttach(1,    /* CPSW Instance                 */             \
+                 ^
+../loadInvokeModule.c:299:8: warning: implicit declaration of function 'muxIoctl' is invalid in C99 [-Wimplicit-function-declaration]
+                        if (muxIoctl (muxTkCookieGet ("cpsw", 1), EIOCGADDR, (void*) macaddr) == OK)
+                            ^
+../loadInvokeModule.c:299:18: warning: implicit declaration of function 'muxTkCookieGet' is invalid in C99 [-Wimplicit-function-declaration]
+                        if (muxIoctl (muxTkCookieGet ("cpsw", 1), EIOCGADDR, (void*) macaddr) == OK)
+                                      ^
+../loadInvokeModule.c:342:14: warning: implicit declaration of function 'ifconfig' is invalid in C99 [-Wimplicit-function-declaration]
+                                status = ifconfig(ipConfigCmd);
+                                         ^
+../loadInvokeModule.c:352:15: warning: implicit declaration of function 'routec' is invalid in C99 [-Wimplicit-function-declaration]
+                                        status = routec(gatewayCmd); 
+                                                 ^
+../loadInvokeModule.c:390:11: warning: implicit declaration of function 'ifconfig' is invalid in C99 [-Wimplicit-function-declaration]
+        status = ifconfig("cpsw1"                                       /* CPSW instance -2 */  \
+                 ^
+../loadInvokeModule.c:406:12: warning: implicit declaration of function 'routec' is invalid in C99 [-Wimplicit-function-declaration]
+                status = routec(gatewayCmd); 
+                         ^
+17 warnings generated.
+rm -f loggerModule.o
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+ \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+-c \
+../loggerModule.c
+../loggerModule.c:45:16: warning: implicit conversion loses integer precision: 'int' to 'INT8' (aka 'signed char') [-Wimplicit-int-conversion]
+                 for(value = fgetc(fp); value != EOF; value = fgetc(fp))
+                           ~ ^~~~~~~~~
+../loggerModule.c:45:49: warning: implicit conversion loses integer precision: 'int' to 'INT8' (aka 'signed char') [-Wimplicit-int-conversion]
+                 for(value = fgetc(fp); value != EOF; value = fgetc(fp))
+                                                            ~ ^~~~~~~~~
+../loggerModule.c:105:13: warning: implicit declaration of function 'open' is invalid in C99 [-Wimplicit-function-declaration]
+                        logFd1 = open(LOGFILE1, O_TRUNC, 0);
+                                 ^
+../loggerModule.c:113:5: warning: implicit declaration of function 'lseek' is invalid in C99 [-Wimplicit-function-declaration]
+                                lseek(logFd1, 0, SEEK_SET);
+                                ^
+../loggerModule.c:114:5: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                                close(logFd1);
+                                ^
+../loggerModule.c:126:13: warning: implicit declaration of function 'open' is invalid in C99 [-Wimplicit-function-declaration]
+                        logFd2 = open(LOGFILE2, O_TRUNC , 0);
+                                 ^
+../loggerModule.c:135:5: warning: implicit declaration of function 'lseek' is invalid in C99 [-Wimplicit-function-declaration]
+                                lseek(logFd2, 0, SEEK_SET);
+                                ^
+../loggerModule.c:136:5: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                                close(logFd2);
+                                ^
+../loggerModule.c:158:13: warning: implicit declaration of function 'open' is invalid in C99 [-Wimplicit-function-declaration]
+                        logFd1 = open(LOGFILE1, O_RDWR | O_APPEND, 0);
+                                 ^
+../loggerModule.c:167:13: warning: implicit declaration of function 'open' is invalid in C99 [-Wimplicit-function-declaration]
+                        logFd2 = open(LOGFILE2, O_RDWR | O_APPEND, 0);
+                                 ^
+../loggerModule.c:185:10: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = write(logFd1, buf, strlen(buf));
+                              ^
+../loggerModule.c:185:29: warning: implicit declaration of function 'strlen' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = write(logFd1, buf, strlen(buf));
+                                                 ^
+../loggerModule.c:187:4: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                        close(logFd1);
+                        ^
+../loggerModule.c:191:10: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = write(logFd2, buf, strlen(buf)); 
+                              ^
+../loggerModule.c:191:29: warning: implicit declaration of function 'strlen' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = write(logFd2, buf, strlen(buf)); 
+                                                 ^
+../loggerModule.c:193:4: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                        close(logFd2);
+                        ^
+../loggerModule.c:220:3: warning: implicit declaration of function 'memset' is invalid in C99 [-Wimplicit-function-declaration]
+                memset(RecvMsgBuffer,0x00,sizeof(RecvMsgBuffer));
+                ^
+../loggerModule.c:225:4: warning: implicit declaration of function 'memcpy' is invalid in C99 [-Wimplicit-function-declaration]
+                        memcpy((char *)&logMsgBuffer, RecvMsgBuffer, sizeof(RecvMsgBuffer));
+                        ^
+../loggerModule.c:238:32: warning: incompatible pointer to integer conversion passing 'char [6]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsgNoWait("%s%s%s", KRED, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                                  ^~~~
+../loggerModule.h:50:15: note: expanded from macro 'KRED'
+#define KRED  "\x1B[31m"
+              ^~~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:66:51: note: passing argument to parameter 'arg1' here
+extern int      logMsgNoWait (char *fmt, _Vx_usr_arg_t arg1, _Vx_usr_arg_t arg2,
+                                                       ^
+../loggerModule.c:238:38: warning: incompatible pointer to integer conversion passing 'char [512]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsgNoWait("%s%s%s", KRED, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                                        ^~~~~~~~~~~~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:66:71: note: passing argument to parameter 'arg2' here
+extern int      logMsgNoWait (char *fmt, _Vx_usr_arg_t arg1, _Vx_usr_arg_t arg2,
+                                                                           ^
+../loggerModule.c:238:59: warning: incompatible pointer to integer conversion passing 'char [5]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsgNoWait("%s%s%s", KRED, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                                                             ^~~~
+../loggerModule.h:49:15: note: expanded from macro 'KNRM'
+#define KNRM  "\x1B[0m"
+              ^~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:67:45: note: passing argument to parameter 'arg3' here
+                              _Vx_usr_arg_t arg3, _Vx_usr_arg_t arg4,
+                                            ^
+../loggerModule.c:245:26: warning: incompatible pointer to integer conversion passing 'char [6]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsg("%s%s%s", KYEL, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                            ^~~~
+../loggerModule.h:52:15: note: expanded from macro 'KYEL'
+#define KYEL  "\x1B[33m"
+              ^~~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:63:45: note: passing argument to parameter 'arg1' here
+extern int      logMsg (char *fmt, _Vx_usr_arg_t arg1, _Vx_usr_arg_t arg2,
+                                                 ^
+../loggerModule.c:245:32: warning: incompatible pointer to integer conversion passing 'char [512]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsg("%s%s%s", KYEL, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                                  ^~~~~~~~~~~~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:63:65: note: passing argument to parameter 'arg2' here
+extern int      logMsg (char *fmt, _Vx_usr_arg_t arg1, _Vx_usr_arg_t arg2,
+                                                                     ^
+../loggerModule.c:245:53: warning: incompatible pointer to integer conversion passing 'char [5]' to parameter of type '_Vx_usr_arg_t' (aka 'int') [-Wint-conversion]
+                                        if(logMsg("%s%s%s", KYEL, logMsgBuffer.Buffer, KNRM, 0, 0, 0) == ERROR)
+                                                                                       ^~~~
+../loggerModule.h:49:15: note: expanded from macro 'KNRM'
+#define KNRM  "\x1B[0m"
+              ^~~~~~~~~
+../../AM5728_P1_VSB/krnl/h/public\logLib.h:64:32: note: passing argument to parameter 'arg3' here
+                        _Vx_usr_arg_t arg3, _Vx_usr_arg_t arg4,
+                                      ^
+../loggerModule.c:212:8: warning: unused variable 'LogLevel' [-Wunused-variable]
+        UINT8 LogLevel = 0;
+              ^
+../loggerModule.c:213:8: warning: unused variable 'FileFlag' [-Wunused-variable]
+        UINT8 FileFlag = 0;
+              ^
+../loggerModule.c:282:11: warning: implicit declaration of function 'open' is invalid in C99 [-Wimplicit-function-declaration]
+        logFd1 = open(LOGFILE1, O_RDWR | O_CREAT | O_EXCL, 0644);
+                 ^
+../loggerModule.c:290:3: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                close(logFd1);
+                ^
+../loggerModule.c:301:3: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                close(logFd2);
+                ^
+29 warnings generated.
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+ \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+-c \
+../usrAppInit.c
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang \
+ -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD \
+ \
+-D_WRS_VX_SMP    -D_WRS_VX_SMP \
+-c \
+../usrRtpAppInit.c
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -c  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD -D_WRS_VX_SMP    -D_WRS_VX_SMP  ../ti_sitara_ctxa15_branson_2_1_0_0/sysLib.c -o sysLib.o
+Generating am572x_branson_ca15.dtb
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -c  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6    -xassembler-with-cpp -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6     -MD -D_WRS_VX_SMP    -D_WRS_VX_SMP  ../ti_sitara_ctxa15_branson_2_1_0_0/sysALib.s -o sysALib.o
+Generating ../prjObjs.lst...
+Generating ../subprjObjs.lst...
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD -D_WRS_VX_SMP    -D_WRS_VX_SMP -c ../../AM5728_P1_VSB/krnl/configlette/usrEntry.c -o usrEntry.o
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD -D_WRS_VX_SMP    -D_WRS_VX_SMP -c  ../../AM5728_P1_VSB/krnl/configlette/version.c
+touch versionTag
+rm -f C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/prjExtraModules.lst
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/ldarm  -X -r -EL  --eh-frame-hdr  @../prjObjs.lst @../subprjObjs.lst \
+	@C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/prjExtraModules.lst version.o --start-group \
+	-L../../AM5728_P1_VSB/krnl/llvm_ -L../../AM5728_P1_VSB/krnl/llvm -L../krnl/lib -L../../AM5728_P1_VSB/krnl/ARMARCH7/common    -lcplus -lBRANSON_DRV -lBRIDGE -lCOREIP -lDHCPC -lDHCPC6 -lDHCPR -lDHCPS6 -lDNSC -lFTP -lIPCOM -lIPNET -lIPTCP -lL2TP -lMyOwnSc -lNTP -lPPP -lRADIUS -lSCEP -lSECCRYPTO -lSEC_HASH -lSNTP -lTFTP -lVXCOREIP -laim -lapps -larch -lbdmFtl -lbdmMtd -lbdmNVMe -lbdmSata -lbdmSim -lbdmTffs -lbdmTffsDrv -lbdmXbd -lboard -lbootapp -lc -lcommoncc -lcoredump -lcoreio -lcoremm -lcoreutil -lcplusplus -lcrypto -ldiameter -ledr -lend -lerfLib -levdevDemoBasic -levdevDrvEetiExc7200 -levdevDrvFslCRTouch -levdevDrvFt5x06 -levdevDrvTiAm335x -levdevDrvTiTsc2004 -levdevLib -lfdt -lfsCommon -lfsDevfs -lfsDosfs -lfsHrfs -lfsNfs -lfsRomfs -lfsVfs -lfsVrfs -lfsapiUtil -lhwdb -lip_crypto -ljobqueue -lllvm -lllvmcplus -lloader -lloopFs -lmib2 -lmulticore -lnet_base -lobj -lopenssltest -lostools -loverlay -lpsci -lpslTiSitara -lpthread -lpxUserGroup -lpxmem -lpxrt -lpxsig -lpxtrace -lrandom -lrbuff -lremoteproc -lrpc -lrpmsg -lrpmsgDrv -lrtp -lruntime_analysis -lruntime_analysis_cachedemo -lruntime_analysis_hpc -lruntime_analysis_intlatencydemo -lruntime_analysis_iodemo -lruntime_analysis_memdemo -lruntime_analysis_topdemo -lruntime_analysis_usereventdemo -lsdhclib -lsdmmclib -lsdmmcstoargecard -lservices -lshell -lsmpdemo -lsocket -lssl -lstacktrace -lstopmode -lsysctl -ltcfagent -ltcfsvservice -ltls -ltpm -lumask -lusbcdns -lusbcore -lusbdwc3 -lusbehci -lusbfsldr -lusbhcore -lusbhelper -lusbhid -lusbhrzn1 -lusbkbd -lusbkeyboard -lusbmhdrc -lusbmouse -lusbmsc -lusbnet -lusbnetwork -lusbohci -lusbotg -lusbpchudc -lusbphy -lusbplx -lusbprint -lusbprinter -lusbser -lusbserial -lusbshci -lusbstorage -lusbtcore -lusbtouchscreen -lusbtrzn1 -lusbtypec -lusbuhci -lusbvideo -lusbxhci -lutf -luuid -lvdfs -lvxbus -lwind -lwindq -lwindview -lzlib -lrqdef -lspl --end-group  -o partialImage.o 
+C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS/content.romfs build done
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6    -xassembler-with-cpp -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6     -MD -c -o romfs_image_prj.o romfs_image_prj.s 
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/nmarm partialImage.o @../prjObjs.lst @../subprjObjs.lst | tclsh C:/WindRiver2021-07/vxworks/21.07/build/mk/tcl/munch.tcl -c arm  -vars build_vars_list -tags ../../AM5728_P1_VSB/krnl/tags/kernel.tags > ctdt.c
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -c -fdollars-in-identifiers  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD  ctdt.c -o ctdt.o
+cp partialImage.o tmp.o
+true tmp.o
+tclsh C:/WindRiver2021-07/vxworks/21.07/build/mk/tcl/makeSymTbl.tcl arm tmp.o symTbl.c
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -c -fdollars-in-identifiers  -fno-builtin -mabi=aapcs -mlittle-endian --target=arm-eabi -mfpu=vfpv4 -mfloat-abi=hard -mcpu=cortex-a15 -std=c11 -D__vxworks -D__VXWORKS__ -D__ELF__ -D_HAVE_TOOL_XTORS  -nostdlibinc -nostdinc++ -ftls-model=local-exec -fno-builtin -fno-strict-aliasing -D_USE_INIT_ARRAY -mllvm -two-entry-phi-node-folding-threshold=2 -mno-implicit-float  -O2 -Wall -Wconversion -Wno-sign-conversion  -I.. -I../ti_sitara_ctxa15_branson_2_1_0_0      -I.  -I../../AM5728_P1_VSB/krnl/configlette  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -D_WRS_KERNEL -DARMEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6   -D_WRS_VX_SMP    -D_WRS_VX_SMP '-D_VSB_CONFIG_FILE="../../AM5728_P1_VSB/h/config/vsbConfig.h"'  -isystem../../AM5728_P1_VSB/krnl/h/public -isystem../../AM5728_P1_VSB/krnl/h/system -I../../AM5728_P1_VSB/share/h -D_VSB_PUBLIC_HDR_DIR=../../AM5728_P1_VSB/krnl/h/public  -DCPU=_VX_ARMARCH7 -DTOOL_FAMILY=llvm -DTOOL=llvm -DPRJ_BUILD -D_WRS_KERNEL -DINET -DINET6 -U__USER_LABEL_PREFIX__ -D__USER_LABEL_PREFIX__= -DINET6      -MD -w   symTbl.c -o symTbl.o
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/clang -D_IMAGE_RAM -D_NORMAL -Darm -E -P -I C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP - < C:/WindRiver2021-07/vxworks/21.07/build/tool/gnu_binutils_2018_07/krnl/ldscript.krnl.template -o   C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/vip.ld
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/ldarm  -X -N -EL  --eh-frame-hdr    -e _vxStart --defsym ENTRY_SYMBOL=sysInit --defsym _VX_VMA_START=0x00100000 --defsym _VX_LMA_START=0x84000000 \
+	romfs_image_prj.o @../prjObjs.lst \
+	@../subprjObjs.lst @C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/prjExtraModules.lst \
+	version.o usrEntry.o --start-group \
+	-L../../AM5728_P1_VSB/krnl/llvm_ -L../../AM5728_P1_VSB/krnl/llvm -L../krnl/lib -L../../AM5728_P1_VSB/krnl/ARMARCH7/common    -lcplus -lBRANSON_DRV -lBRIDGE -lCOREIP -lDHCPC -lDHCPC6 -lDHCPR -lDHCPS6 -lDNSC -lFTP -lIPCOM -lIPNET -lIPTCP -lL2TP -lMyOwnSc -lNTP -lPPP -lRADIUS -lSCEP -lSECCRYPTO -lSEC_HASH -lSNTP -lTFTP -lVXCOREIP -laim -lapps -larch -lbdmFtl -lbdmMtd -lbdmNVMe -lbdmSata -lbdmSim -lbdmTffs -lbdmTffsDrv -lbdmXbd -lboard -lbootapp -lc -lcommoncc -lcoredump -lcoreio -lcoremm -lcoreutil -lcplusplus -lcrypto -ldiameter -ledr -lend -lerfLib -levdevDemoBasic -levdevDrvEetiExc7200 -levdevDrvFslCRTouch -levdevDrvFt5x06 -levdevDrvTiAm335x -levdevDrvTiTsc2004 -levdevLib -lfdt -lfsCommon -lfsDevfs -lfsDosfs -lfsHrfs -lfsNfs -lfsRomfs -lfsVfs -lfsVrfs -lfsapiUtil -lhwdb -lip_crypto -ljobqueue -lllvm -lllvmcplus -lloader -lloopFs -lmib2 -lmulticore -lnet_base -lobj -lopenssltest -lostools -loverlay -lpsci -lpslTiSitara -lpthread -lpxUserGroup -lpxmem -lpxrt -lpxsig -lpxtrace -lrandom -lrbuff -lremoteproc -lrpc -lrpmsg -lrpmsgDrv -lrtp -lruntime_analysis -lruntime_analysis_cachedemo -lruntime_analysis_hpc -lruntime_analysis_intlatencydemo -lruntime_analysis_iodemo -lruntime_analysis_memdemo -lruntime_analysis_topdemo -lruntime_analysis_usereventdemo -lsdhclib -lsdmmclib -lsdmmcstoargecard -lservices -lshell -lsmpdemo -lsocket -lssl -lstacktrace -lstopmode -lsysctl -ltcfagent -ltcfsvservice -ltls -ltpm -lumask -lusbcdns -lusbcore -lusbdwc3 -lusbehci -lusbfsldr -lusbhcore -lusbhelper -lusbhid -lusbhrzn1 -lusbkbd -lusbkeyboard -lusbmhdrc -lusbmouse -lusbmsc -lusbnet -lusbnetwork -lusbohci -lusbotg -lusbpchudc -lusbphy -lusbplx -lusbprint -lusbprinter -lusbser -lusbserial -lusbshci -lusbstorage -lusbtcore -lusbtouchscreen -lusbtrzn1 -lusbtypec -lusbuhci -lusbvideo -lusbxhci -lutf -luuid -lvdfs -lvxbus -lwind -lwindq -lwindview -lzlib -lrqdef -lspl  --end-group  ctdt.o symTbl.o\
+	-defsym _VX_DATA_ALIGN=1  -T C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/vip.ld -o vxWorks
+true  vxWorks
+VX_CPU_FAMILY=arm vxsize -p C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/sizearm.exe -v 0x01000000 0x00100000 vxWorks
+vxWorks: 17974101(t) + 480340(d) + 300481(b) = 18754922 (3026282 over)
+Warning: text + data + bss is larger than 15728640 bytes!
+Booting this image with vxWorks bootROMs will fail
+unless you increase RAM_HIGH_ADRS and create new
+BootROMS
+VX_CPU_FAMILY=arm image-tag -tag vxWorks;
+flags = 0x2
+C:/WindRiver2021-07/compilers/llvm-11.1.0.1/WIN64/bin/objcopyarm -O binary vxWorks vxWorks.bin
+touch _user_objs.nm
+touch _user_objs.cdf
+recalculating dependencies because of source file or VSB change
+This may result in no change
+vxprj vip recalculate ../AM5728_P1_VIP.wpj
+VX_CPU_FAMILY=arm mkimage -O vxworks -T kernel -C none -n vxworks -A arm -a 0x84100000 -e 0x84100000 -d vxWorks.bin uVxWorks
+Image Name:   vxworks
+Created:      Thu Aug  3 10:26:01 2023
+Image Type:   ARM VxWorks Kernel Image (uncompressed)
+Data Size:    18457688 Bytes = 18025.09 KiB = 17.60 MiB
+Load Address: 84100000
+Entry Point:  84100000
+rm versionTag am572x_branson_ca15.dts.i
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make: built targets of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-03 10:26:01   (Elapsed Time: 00:30)
+************************************************************
+Error Code: 0: CALL wrtool prj build AM5728_P1_VIP 
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:49:19
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 03:49:23   (Elapsed Time: 00:04)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:49:34
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 03:49:38   (Elapsed Time: 00:03)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:49:49
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+error: VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' is not built
+make: *** [Makefile:63: check_vsb] Error 1
+Build Failed in Project 'AM5728_P1_VIP' (Process Exit Value was '2'):   2023-08-07 03:49:53   (Elapsed Time: 00:03)
+************************************************************
+ERROR: Build command failed with exit value 2.
+Error Code: 1: CALL wrtool prj build AM5728_P1_VIP 
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:53:20
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 03:53:24   (Elapsed Time: 00:03)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:53:35
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 03:53:39   (Elapsed Time: 00:03)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 03:53:50
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:02).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+error: VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' is not built
+make: *** [Makefile:63: check_vsb] Error 1
+Build Failed in Project 'AM5728_P1_VIP' (Process Exit Value was '2'):   2023-08-07 03:53:54   (Elapsed Time: 00:03)
+************************************************************
+ERROR: Build command failed with exit value 2.
+Error Code: 1: CALL wrtool prj build AM5728_P1_VIP 
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:32:11
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 09:32:18   (Elapsed Time: 00:07)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:32:29
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 09:32:36   (Elapsed Time: 00:07)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:32:48
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+error: VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' is not built
+make: *** [Makefile:63: check_vsb] Error 1
+Build Failed in Project 'AM5728_P1_VIP' (Process Exit Value was '2'):   2023-08-07 09:32:55   (Elapsed Time: 00:07)
+************************************************************
+ERROR: Build command failed with exit value 2.
+Error Code: 1: CALL wrtool prj build AM5728_P1_VIP 
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:36:46
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 09:36:54   (Elapsed Time: 00:07)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:37:05
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1 clean
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_DSP_LOADER/AM5728_P1_VSB_ARMARCH7llvm_SMP
+if [ -d "AM5728_DSP_LOADER" ]; then cd "AM5728_DSP_LOADER"; rm -rf Debug; fi
+Recursive make: Changing to Directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+echo "make: removing file system contents";\
+rm -rf content.romfs Contents
+make: removing file system contents
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_ROMFS'
+make: removing targets and objects of C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+C:/WindRiver2021-07/vxworks/21.07/build/mk/krnl/rules.vxWorks.mk:173: *** 
+VIP cannot be built because the VSB build process has started and not finished
+Please try again once VSB build has completed
+.  Stop.
+make[1]: Entering directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+make[1]: Leaving directory 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP/default'
+Build Finished in Project 'AM5728_P1_VIP':   2023-08-07 09:37:12   (Elapsed Time: 00:07)
+************************************************************
+Build Started in Project 'AM5728_P1_VIP':   2023-08-07 09:37:23
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:06).
+Platform: VxWorks 21.07
+Command: make BUILD_SPEC=default DEBUG_MODE=0 TRACE=1
+Working Directory: C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VIP
+checking VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' ...
+error: VSB 'C:/Stream_ACEPRO_Test/ACEPRO_Test/AM5728_P1_VSB' is not built
+make: *** [Makefile:63: check_vsb] Error 1
+Build Failed in Project 'AM5728_P1_VIP' (Process Exit Value was '2'):   2023-08-07 09:37:30   (Elapsed Time: 00:07)
+************************************************************
+ERROR: Build command failed with exit value 2.

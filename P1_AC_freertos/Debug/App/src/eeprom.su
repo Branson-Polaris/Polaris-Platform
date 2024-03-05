@@ -1,0 +1,5 @@
+eeprom.c:72:6:ShowString	24	static
+eeprom.c:106:10:MakeString	32	static
+eeprom.c:146:6:ReadSerNoEEPROM	24	static
+eeprom.c:165:6:WriteSerNoEEPROM	24	static
+eeprom.c:184:18:GetEepromBuffer	4	static

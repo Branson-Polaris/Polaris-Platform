@@ -1,0 +1,1 @@
+This folder contains sonic/power control specific logic.

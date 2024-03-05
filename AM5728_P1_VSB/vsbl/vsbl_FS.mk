@@ -1,0 +1,48 @@
+# Automatically generated file: do not edit
+
+##########################
+# FS Section
+##########################
+
+
+ifdef _WRS_CONFIG_FS
+VSBL_FS_SRC = 
+VSBL_FS_DEPEND = 
+
+ifdef _WRS_CONFIG_FS_2_1_4_0
+ifdef _WRS_CONFIG_FS_CDROMFS
+VSBL_FS_SRC += FS_CDROMFS
+endif
+ifdef _WRS_CONFIG_FS_DOSFS
+VSBL_FS_SRC += FS_DOSFS
+endif
+ifdef _WRS_CONFIG_FS_HRFS
+VSBL_FS_SRC += FS_HRFS
+endif
+ifdef _WRS_CONFIG_FS_NFS
+VSBL_FS_SRC += FS_NFS
+endif
+ifdef _WRS_CONFIG_FS_OVERLAY
+VSBL_FS_SRC += FS_OVERLAY
+endif
+ifdef _WRS_CONFIG_FS_ROMFS
+VSBL_FS_SRC += FS_ROMFS
+endif
+ifdef _WRS_CONFIG_FS_UTIL
+VSBL_FS_SRC += FS_UTIL
+endif
+ifdef _WRS_CONFIG_FS_VRFS
+VSBL_FS_SRC += FS_VRFS
+endif
+VSBL_FS_SRC += FS
+VSBL_FS_DEPEND += BDM
+VSBL_FS_DEPEND += LIBC_STD
+VSBL_FS_DEPEND += SERVICE_ERF
+VSBL_FS_DEPEND += UTILS_UUID
+VSBL_FS_DEPEND += CORE
+FS_FASTBUILD = YES
+VSBL_FS_PATH = $(WIND_BASE)/os/storage/fs
+VSBL_FS_VERSION = FS_2_1_4_0
+endif
+endif
+

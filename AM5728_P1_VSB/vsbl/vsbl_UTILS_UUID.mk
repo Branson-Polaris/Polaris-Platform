@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# UTILS_UUID Section
+##########################
+
+
+ifdef _WRS_CONFIG_UTILS_UUID
+VSBL_UTILS_UUID_SRC = 
+VSBL_UTILS_UUID_DEPEND = 
+
+ifdef _WRS_CONFIG_UTILS_2_0_8_0_UUID_2_0_8_0
+VSBL_UTILS_UUID_SRC += UTILS_UUID
+VSBL_UTILS_UUID_DEPEND += LIBC_STD
+VSBL_UTILS_UUID_DEPEND += CORE
+VSBL_UTILS_UUID_DEPEND += CORE
+UTILS_UUID_FASTBUILD = YES
+VSBL_UTILS_UUID_PATH = $(WIND_BASE)/os/utils/uuid
+VSBL_UTILS_UUID_VERSION = UTILS_2_0_8_0_UUID_2_0_8_0
+endif
+endif
+

@@ -1,0 +1,1 @@
+This folder contains ultrasonic welding logic related code.

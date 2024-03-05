@@ -1,0 +1,2 @@
+ioinit.c:37:6:InitializeInputs	4	static
+ioinit.c:70:6:InitializeOutputs	4	static

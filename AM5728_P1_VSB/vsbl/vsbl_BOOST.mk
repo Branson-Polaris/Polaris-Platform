@@ -1,0 +1,25 @@
+# Automatically generated file: do not edit
+
+##########################
+# BOOST Section
+##########################
+
+
+ifdef _WRS_CONFIG_BOOST
+VSBL_BOOST_SRC = 
+VSBL_BOOST_DEPEND = 
+
+ifdef _WRS_CONFIG_BOOST_1_75_0_0
+VSBL_BOOST_SRC += BOOST
+VSBL_BOOST_DEPEND += CORE_RTP
+VSBL_BOOST_DEPEND += UTILS_UNIX
+VSBL_BOOST_DEPEND += UTILS_WRCC
+VSBL_BOOST_DEPEND += LIBC_STD
+VSBL_BOOST_DEPEND += CORE
+BOOST_FASTBUILD = YES
+BOOST_SUBSCRIBE = UTILS_UNIX
+VSBL_BOOST_PATH = $(WIND_BASE)/contrib/boost-1.75
+VSBL_BOOST_VERSION = BOOST_1_75_0_0
+endif
+endif
+

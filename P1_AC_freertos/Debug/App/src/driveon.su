@@ -1,0 +1,3 @@
+driveon.c:11:6:DriveOnEntry	4	static
+driveon.c:26:6:DriveOnState	4	static
+driveon.c:40:6:DriveOnExit	4	static

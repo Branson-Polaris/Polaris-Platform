@@ -1,0 +1,29 @@
+# Automatically generated file: do not edit
+
+##########################
+# USB_HOST Section
+##########################
+
+
+ifdef _WRS_CONFIG_USB_HOST
+VSBL_USB_HOST_SRC = 
+VSBL_USB_HOST_DEPEND = 
+
+ifdef _WRS_CONFIG_USB_2_0_8_0_HOST_2_0_8_0
+ifdef _WRS_CONFIG_USB_NETWORK
+VSBL_USB_HOST_SRC += USB_NETWORK
+endif
+ifdef _WRS_CONFIG_USB_STORAGE
+VSBL_USB_HOST_SRC += USB_STORAGE
+endif
+ifdef _WRS_CONFIG_USB_TOUCHSCREEN
+VSBL_USB_HOST_SRC += USB_TOUCHSCREEN
+endif
+VSBL_USB_HOST_SRC += USB_HOST
+VSBL_USB_HOST_DEPEND += SERVICE_ERF
+USB_HOST_FASTBUILD = YES
+VSBL_USB_HOST_PATH = $(WIND_BASE)/os/connectivity/usb/host
+VSBL_USB_HOST_VERSION = USB_2_0_8_0_HOST_2_0_8_0
+endif
+endif
+

@@ -1,0 +1,20 @@
+# Automatically generated file: do not edit
+
+##########################
+# USB_TOUCHSCREEN Section
+##########################
+
+
+ifdef _WRS_CONFIG_USB_TOUCHSCREEN
+VSBL_USB_TOUCHSCREEN_SRC = 
+VSBL_USB_TOUCHSCREEN_DEPEND = 
+
+ifdef _WRS_CONFIG_USB_2_0_8_0_HOST_2_0_8_0_TOUCHSCREEN_2_0_8_0
+VSBL_USB_TOUCHSCREEN_SRC += USB_TOUCHSCREEN
+VSBL_USB_TOUCHSCREEN_DEPEND += EVDEV
+USB_TOUCHSCREEN_FASTBUILD = YES
+VSBL_USB_TOUCHSCREEN_PATH = $(WIND_BASE)/os/connectivity/usb/host/class/touchscreen
+VSBL_USB_TOUCHSCREEN_VERSION = USB_2_0_8_0_HOST_2_0_8_0_TOUCHSCREEN_2_0_8_0
+endif
+endif
+

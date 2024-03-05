@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# IPNET_8021X Section
+##########################
+
+
+ifdef _WRS_CONFIG_IPNET_8021X
+VSBL_IPNET_8021X_SRC = 
+VSBL_IPNET_8021X_DEPEND = 
+
+ifdef _WRS_CONFIG_IPNET_8021X_1_0_0_1
+VSBL_IPNET_8021X_SRC += IPNET_8021X
+VSBL_IPNET_8021X_DEPEND += IPNET_COREIP
+VSBL_IPNET_8021X_DEPEND += IPNET_EAP
+IPNET_8021X_FASTBUILD = YES
+VSBL_IPNET_8021X_PATH = $(WIND_BASE)/os/net/ipnet/8021x
+VSBL_IPNET_8021X_VERSION = IPNET_8021X_1_0_0_1
+endif
+endif
+

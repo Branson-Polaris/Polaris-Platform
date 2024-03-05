@@ -1,0 +1,26 @@
+# Automatically generated file: do not edit
+
+##########################
+# FS_NFS Section
+##########################
+
+
+ifdef _WRS_CONFIG_FS_NFS
+VSBL_FS_NFS_SRC = 
+VSBL_FS_NFS_DEPEND = 
+
+ifdef _WRS_CONFIG_FS_2_1_4_0_NFS_2_0_3_2
+VSBL_FS_NFS_SRC += FS_NFS
+VSBL_FS_NFS_DEPEND += FS_UTIL
+VSBL_FS_NFS_DEPEND += IPNET_COREIP
+VSBL_FS_NFS_DEPEND += SERVICE_JOBQUEUE
+VSBL_FS_NFS_DEPEND += SERVICE_RPC
+VSBL_FS_NFS_DEPEND += SERVICE_SOCKET
+VSBL_FS_NFS_DEPEND += CORE
+VSBL_FS_NFS_DEPEND += CORE
+FS_NFS_FASTBUILD = YES
+VSBL_FS_NFS_PATH = $(WIND_BASE)/os/storage/fs/nfs
+VSBL_FS_NFS_VERSION = FS_2_1_4_0_NFS_2_0_3_2
+endif
+endif
+

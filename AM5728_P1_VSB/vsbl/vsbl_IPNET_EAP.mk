@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# IPNET_EAP Section
+##########################
+
+
+ifdef _WRS_CONFIG_IPNET_EAP
+VSBL_IPNET_EAP_SRC = 
+VSBL_IPNET_EAP_DEPEND = 
+
+ifdef _WRS_CONFIG_IPNET_EAP_2_0_0_4
+VSBL_IPNET_EAP_SRC += IPNET_EAP
+VSBL_IPNET_EAP_DEPEND += IPNET_COREIP
+VSBL_IPNET_EAP_DEPEND += SECURITY_MISC_SEC_CRYPTO
+VSBL_IPNET_EAP_DEPEND += OPENSSL
+IPNET_EAP_FASTBUILD = YES
+VSBL_IPNET_EAP_PATH = $(WIND_BASE)/os/net/ipnet/eap
+VSBL_IPNET_EAP_VERSION = IPNET_EAP_2_0_0_4
+endif
+endif
+

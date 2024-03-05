@@ -1,0 +1,23 @@
+# Automatically generated file: do not edit
+
+##########################
+# RASTER_VG Section
+##########################
+
+
+ifdef _WRS_CONFIG_RASTER_VG
+VSBL_RASTER_VG_SRC = 
+VSBL_RASTER_VG_DEPEND = 
+
+ifdef _WRS_CONFIG_RASTER_2_0_0_0_VG_2_0_0_6
+VSBL_RASTER_VG_SRC += RASTER_VG
+VSBL_RASTER_VG_DEPEND += FBDEV
+VSBL_RASTER_VG_DEPEND += KHRONOS
+VSBL_RASTER_VG_DEPEND += LIBJPEG
+VSBL_RASTER_VG_DEPEND += LIBPNG
+RASTER_VG_FASTBUILD = YES
+VSBL_RASTER_VG_PATH = $(WIND_BASE)/os/multimedia/raster/vg
+VSBL_RASTER_VG_VERSION = RASTER_2_0_0_0_VG_2_0_0_6
+endif
+endif
+

@@ -1,0 +1,3 @@
+alarm.c:11:6:AlarmEntry	4	static
+alarm.c:26:6:AlarmState	4	static
+alarm.c:40:6:AlarmExit	4	static

@@ -1,0 +1,3 @@
+downstroke.c:11:6:DownStrokeEntry	4	static
+downstroke.c:27:6:DownStrokeState	4	static
+downstroke.c:41:6:DownStrokeExit	4	static

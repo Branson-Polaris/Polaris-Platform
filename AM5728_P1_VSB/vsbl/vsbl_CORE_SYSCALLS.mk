@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# CORE_SYSCALLS Section
+##########################
+
+
+ifdef _WRS_CONFIG_CORE_SYSCALLS
+VSBL_CORE_SYSCALLS_SRC = 
+VSBL_CORE_SYSCALLS_DEPEND = 
+
+ifdef _WRS_CONFIG_CORE_3_2_2_0_SYSCALLS_2_0_4_0
+ifdef _WRS_CONFIG_CORE_CUSTOM
+VSBL_CORE_SYSCALLS_SRC += CORE_CUSTOM
+endif
+VSBL_CORE_SYSCALLS_SRC += CORE_SYSCALLS
+CORE_SYSCALLS_FASTBUILD = YES
+VSBL_CORE_SYSCALLS_PATH = $(WIND_BASE)/os/core/syscalls
+VSBL_CORE_SYSCALLS_VERSION = CORE_3_2_2_0_SYSCALLS_2_0_4_0
+endif
+endif
+

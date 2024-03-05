@@ -1,0 +1,25 @@
+# Automatically generated file: do not edit
+
+##########################
+# BDM_FLASH Section
+##########################
+
+
+ifdef _WRS_CONFIG_BDM_FLASH
+VSBL_BDM_FLASH_SRC = 
+VSBL_BDM_FLASH_DEPEND = 
+
+ifdef _WRS_CONFIG_BDM_2_0_8_0_FLASH_2_0_8_0
+ifdef _WRS_CONFIG_BDM_SIM
+VSBL_BDM_FLASH_SRC += BDM_SIM
+endif
+VSBL_BDM_FLASH_SRC += BDM_FLASH
+VSBL_BDM_FLASH_DEPEND += VXBUS
+VSBL_BDM_FLASH_DEPEND += VXBUS
+VSBL_BDM_FLASH_DEPEND += VXBUS
+BDM_FLASH_FASTBUILD = YES
+VSBL_BDM_FLASH_PATH = $(WIND_BASE)/os/storage/bdm/flash
+VSBL_BDM_FLASH_VERSION = BDM_2_0_8_0_FLASH_2_0_8_0
+endif
+endif
+

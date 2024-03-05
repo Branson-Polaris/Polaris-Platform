@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="ARM LLVM" name="ARM LLVM">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider class="org.eclipse.cdt.core.language.settings.providers.LanguageSettingsGenericProvider" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider" name="CDT User Setting Entries" prefer-non-shared="true" store-entries-with-project="true"/>
+			<provider class="com.windriver.cdt.core.project.WRBuildLanguageSettingsProvider" id="com.windriver.cdt.core.project.WRBuildLanguageSettingsProvider" name="Wind River Build Settings Provider" prefer-non-shared="true" store-entries-with-project="true">
+				<resource project-relative-path="">
+					<entry kind="includePath" name="../AM5728_P1_VSB/krnl/configlette"/>
+					<entry kind="includePath" name="../AM5728_P1_VSB/share/h"/>
+					<entry kind="includePath" name="../AM5728_P1_VSB/h"/>
+					<entry kind="includePath" name="../AM5728_P1_VSB/krnl/h/public"/>
+					<entry kind="includePath" name="../AM5728_P1_VSB/krnl/h/system"/>
+					<entry kind="macro" name="CPU" value="ARMARCH7"/>
+					<entry kind="macro" name="TOOL" value="llvm"/>
+					<entry kind="macro" name="_VSB_CONFIG_FILE" value="&quot;config/vsbConfig.h&quot;"/>
+					<entry kind="macro" name="_VX_CPU_FAMILY" value="arm"/>
+				</resource>
+			</provider>
+			<provider class="com.windriver.cdt.core.project.WRLlvmBuiltinSpecsDetector" console="false" id="com.windriver.cdt.core.project.WRLlvmBuiltinSpecsDetector" keep-relative-paths="false" name="Wind River LLVM Builtin Compiler Settings" parameter="clang -v -dD -P -E ${INPUTS}" prefer-non-shared="true">
+				<language-scope id="com.windriver.cdt.core.wrLlvmC"/>
+				<language-scope id="com.windriver.cdt.core.wrLlvmCpp"/>
+			</provider>
+		</extension>
+	</configuration>
+</project>

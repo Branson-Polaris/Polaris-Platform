@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# USB_NETWORK Section
+##########################
+
+
+ifdef _WRS_CONFIG_USB_NETWORK
+VSBL_USB_NETWORK_SRC = 
+VSBL_USB_NETWORK_DEPEND = 
+
+ifdef _WRS_CONFIG_USB_2_0_8_0_HOST_2_0_8_0_NETWORK_2_0_8_0
+VSBL_USB_NETWORK_SRC += USB_NETWORK
+VSBL_USB_NETWORK_DEPEND += END
+VSBL_USB_NETWORK_DEPEND += IPNET_COREIP
+VSBL_USB_NETWORK_DEPEND += SERVICE_SOCKET
+USB_NETWORK_FASTBUILD = YES
+VSBL_USB_NETWORK_PATH = $(WIND_BASE)/os/connectivity/usb/host/class/network
+VSBL_USB_NETWORK_VERSION = USB_2_0_8_0_HOST_2_0_8_0_NETWORK_2_0_8_0
+endif
+endif
+

@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# UTILS_RUST Section
+##########################
+
+
+ifdef _WRS_CONFIG_UTILS_RUST
+VSBL_UTILS_RUST_SRC = 
+VSBL_UTILS_RUST_DEPEND = 
+
+ifdef _WRS_CONFIG_UTILS_2_0_8_0_RUST_2_0_8_0
+VSBL_UTILS_RUST_SRC += UTILS_RUST
+VSBL_UTILS_RUST_DEPEND += CORE_RTP
+VSBL_UTILS_RUST_DEPEND += UTILS_WRCC
+UTILS_RUST_FASTBUILD = YES
+VSBL_UTILS_RUST_PATH = $(WIND_BASE)/os/utils/rust
+VSBL_UTILS_RUST_VERSION = UTILS_2_0_8_0_RUST_2_0_8_0
+endif
+endif
+

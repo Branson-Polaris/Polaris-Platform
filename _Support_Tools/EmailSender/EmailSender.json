@@ -1,0 +1,13 @@
+{
+  "Mail":
+  {
+   	"Server":"inetmail.emrsn.net",
+   	"Port":"25",
+  	"From":"BuildStatus@emerson.com",
+  	"Pwd":"",
+  	"To":[
+  	    {"Email":"arturo.huerta@emerson.com"},
+  		{"Email":"arturo_aghh@hotmail.com"}
+  	]
+  }	
+ }

@@ -1,0 +1,1 @@
+This folder contains HMI specific logic.

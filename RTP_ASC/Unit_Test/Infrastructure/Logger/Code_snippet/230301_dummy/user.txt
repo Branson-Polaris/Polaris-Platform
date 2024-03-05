@@ -1,0 +1,20 @@
+class user{
+private:
+	size_t log_id;
+public:
+	user();
+	void example_userfunc(void);
+};
+
+
+user::user()
+{
+this->log_id = logger::enroll(this);
+}
+
+
+void user::example_userfunc()
+{
+uint8_t msg[]="Hello";
+int return_val = logger::add_entry(this->log_id,SEVERITY::GENERAL_INFO, msg, sizeof(msg));
+}

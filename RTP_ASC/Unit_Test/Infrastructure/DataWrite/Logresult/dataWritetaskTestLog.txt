@@ -1,0 +1,130 @@
+
+U-Boot SPL 2016.05 (Sep 17 2021 - 11:35:41)
+DRA752-GP ES2.0
+Trying to boot from MMC1
+reading args
+spl_load_image_fat_os: error reading image args, err - -1
+reading u-boot.img
+reading u-boot.img
+reading u-boot.img
+reading u-boot.img
+
+
+U-Boot 2016.05 (Sep 17 2021 - 11:35:41 +0530)
+
+CPU  : DRA752-GP ES2.0
+Model: TI AM5728 IDK
+Board: AM572x IDK REV <NULL>
+DRAM:  2 GiB
+MMC:   no pinctrl for sdr104
+no pinctrl for ddr50
+no pinctrl for sdr50
+no pinctrl for sdr25
+no pinctrl for sdr12
+OMAP SD/MMC: 0, OMAP SD/MMC: 1
+reading uboot.env
+*** Warning - bad CRC, using default environment
+
+I2C chip 50: requested alen 2 does not match chip offset_len 1
+SCSI:  SATA link 0 timeout.
+AHCI 0001.0300 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+flags: 64bit ncq stag pm led clo only pmp pio slum part ccc apst
+scanning bus for devices...
+Found 0 device(s).
+Net:
+Warning: ethernet@48484000 using MAC address from ROM
+eth0: ethernet@48484000
+Hit any key to stop autoboot:  0
+switch to partitions #0, OK
+mmc0 is current device
+SD/MMC found on device 0
+reading boot.scr
+** Unable to read file boot.scr **
+reading uEnv.txt
+347 bytes read in 3 ms (112.3 KiB/s)
+Loaded env from uEnv.txt
+Importing environment from mmc0 ...
+Running uenvcmd ...
+reading vxWorks.bin
+18248792 bytes read in 802 ms (21.7 MiB/s)
+reading /SonicsDSP.xe66
+5174684 bytes read in 230 ms (21.5 MiB/s)
+## Starting application at 0x84100000 ...
+Target Name: vxTarget
+
+ _________            _________
+ \........\          /......../
+  \........\        /......../
+   \........\      /......../
+    \........\    /......../
+     \........\   \......./
+      \........\   \...../              VxWorks SMP 32-bit
+       \........\   \.../
+        \........\   \./     Release version: 21.07
+         \........\   -      Build date: Mar 14 2023 15:06:33
+          \........\
+           \......./         Copyright Wind River Systems, Inc.
+            \...../   -                 1984-2023
+             \.../   /.\
+              \./   /...\
+               -   -------
+
+                   Board: TI_AM572X_BRANSON - Cortex-A15 (ARMV7A)
+               CPU Count: 2
+          OS Memory Size: 1920MB
+        ED&R Policy Mode: Deployed
+
+
+ Adding 17011 symbols for standalone.
+
+IMG1.. Enable EXT PWR GPIO
+IMG1.. GPIO allocation status: 0
+IMG1.. GPIO direction set status: 0
+-> --->>> PRCM Clock Configuration for OPPNOM in progress... <<<---
+        IVA DPLL OPP 0 clock config is in progress...
+        IVA DPLL OPP 0 is DONE!
+        ABE DPLL OPP 0 clock config in progress...
+        ABE DPLL OPP 0 is DONE!
+        GPU DPLL OPP 0 clock config is in progress...
+        GPU DPLL OPP 0 is DONE!
+        DSP DPLL OPP 0 clock config is in progress...
+        DSP DPLL OPP 0 is DONE!
+--->>> PRCM Clock Configuration for OPP 0 is DONE! <<<---
+--->>> PRCM Configuration for all modules in progress... <<<---
+--->>> PRCM Configuration for all modules is DONE! <<<---
+rproc_elf32_load_segments: addr = 0x2d204000 size = 0x2000000
+--->>> Mapping TIMER suspend sources to default cores <<<<<<----
+--->>> DSP1SS Initialization is in progress ... <<<---
+DEBUG: Clock is active ...
+--->>> DSP1SS Initialization is DONE! <<<---
+Waiting for dsp ...
+DSP started successfully
+initCpsw1: write: EEPROM_PATH: MAC address saved
+initCpsw1: Open: IP_CONFIG_PATH invalid data using defaults
+    add net 0.0.0.0: netmask 0.0.0.0: gateway 192.168.2.1
+
+***User application loading start!***
+
+EMMC is already HRFS formatted!
+
+PrintVersion: DSP Version: 0.0.20.0
+
+MAIN_T: DSP Config A: 1
+
+MAIN_T: Create MsgQ: OK
+0x202a3740 (tLogger): <LC: 1> ~ < D ><LC: 1> ~  < Line No: 30 > < File: D:/streams/ACEPRO2023/RTP_ASC/Platform/DCX/Logic/SC/ScDgtInput.cpp > : ------------------------ DgtInput Task spawned ------------------------
+
+ACTSocket_T: Socket create: OK
+
+EmrsnSocket::Bind: Port ID: 0: 1601
+
+ACTSocket_T: socket listen: OK
+
+MAIN_T: Create Tasks: OK
+
+EmrsnSocket::Bind: Port ID: 0: 1600
+
+HMISocket_T: socket listening on Port: 1600
+LAST_WELD_RESULT_DATA_WRITE is sent from ctrl task tas0x202a3740 (tLogger): <LC: 2> ~ < E ><LC: 2> ~  < Line No: 212 > < File: Dk
+LAST_WELD_RESULT_DATA_WRITE recived in data write datarequestBuffer[0]=1,datarequestBuffer[0]=2
+LAST_WELD_RESULT_DATA_WRITE is recived in ctrl task

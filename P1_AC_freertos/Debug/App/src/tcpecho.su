@@ -1,0 +1,8 @@
+tcpecho.c:67:13:Socket_ACT_Task	248	static
+tcpecho.c:292:6:MessageDeCoder	24	static
+tcpecho.c:311:5:MessageCRCCal	800	static
+tcpecho.c:343:6:process_DatafromASC	16	static
+tcpecho.c:366:6:ASCPdoDownloadRequest	16	static
+tcpecho.c:382:6:process_DatatoASC	232	static
+tcpecho.c:420:5:SendMessageToASC	128	static
+tcpecho.c:466:6:tcpecho_init	16	static

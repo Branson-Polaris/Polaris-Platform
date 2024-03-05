@@ -1,0 +1,22 @@
+# Automatically generated file: do not edit
+
+##########################
+# IPNET_SSH Section
+##########################
+
+
+ifdef _WRS_CONFIG_IPNET_SSH
+VSBL_IPNET_SSH_SRC = 
+VSBL_IPNET_SSH_DEPEND = 
+
+ifdef _WRS_CONFIG_IPNET_SSH_2_0_0_8
+VSBL_IPNET_SSH_SRC += IPNET_SSH
+VSBL_IPNET_SSH_DEPEND += IPNET_COREIP
+VSBL_IPNET_SSH_DEPEND += SECURITY_MISC_SEC_CRYPTO
+VSBL_IPNET_SSH_DEPEND += OPENSSL
+IPNET_SSH_FASTBUILD = YES
+VSBL_IPNET_SSH_PATH = $(WIND_BASE)/os/net/ipnet/ssh
+VSBL_IPNET_SSH_VERSION = IPNET_SSH_2_0_0_8
+endif
+endif
+

@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# PYTHON_PYTZ Section
+##########################
+
+
+ifdef _WRS_CONFIG_PYTHON_PYTZ
+VSBL_PYTHON_PYTZ_SRC = 
+VSBL_PYTHON_PYTZ_DEPEND = 
+
+ifdef _WRS_CONFIG_PYTHON_3_8_0_6_PYTZ_2019_3_0_0
+VSBL_PYTHON_PYTZ_SRC += PYTHON_PYTZ
+VSBL_PYTHON_PYTZ_DEPEND += CORE_RTP
+VSBL_PYTHON_PYTZ_DEPEND += PYTHON
+PYTHON_PYTZ_FASTBUILD = YES
+VSBL_PYTHON_PYTZ_PATH = $(WIND_BASE)/contrib/python-3.8.0/pytz
+VSBL_PYTHON_PYTZ_VERSION = PYTHON_3_8_0_6_PYTZ_2019_3_0_0
+endif
+endif
+

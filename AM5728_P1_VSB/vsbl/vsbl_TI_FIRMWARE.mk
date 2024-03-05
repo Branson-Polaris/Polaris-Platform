@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# TI_FIRMWARE Section
+##########################
+
+
+ifdef _WRS_CONFIG_TI_FIRMWARE
+VSBL_TI_FIRMWARE_SRC = 
+VSBL_TI_FIRMWARE_DEPEND = 
+
+ifdef _WRS_CONFIG_TI_FIRMWARE_1_0_2_0
+VSBL_TI_FIRMWARE_SRC += TI_FIRMWARE
+VSBL_TI_FIRMWARE_DEPEND += FDT
+VSBL_TI_FIRMWARE_DEPEND += CORE
+TI_FIRMWARE_FASTBUILD = YES
+VSBL_TI_FIRMWARE_PATH = $(WIND_BASE)/os/psl/ti/ti_firmware
+VSBL_TI_FIRMWARE_VERSION = TI_FIRMWARE_1_0_2_0
+endif
+endif
+

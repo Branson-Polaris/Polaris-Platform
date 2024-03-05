@@ -1,0 +1,21 @@
+# Automatically generated file: do not edit
+
+##########################
+# WEBCLI_HTTP Section
+##########################
+
+
+ifdef _WRS_CONFIG_WEBCLI_HTTP
+VSBL_WEBCLI_HTTP_SRC = 
+VSBL_WEBCLI_HTTP_DEPEND = 
+
+ifdef _WRS_CONFIG_WEBCLI_2_0_1_1_HTTP_2_0_1_1
+VSBL_WEBCLI_HTTP_SRC += WEBCLI_HTTP
+VSBL_WEBCLI_HTTP_DEPEND += FS_DOSFS
+VSBL_WEBCLI_HTTP_DEPEND += ZLIB
+WEBCLI_HTTP_FASTBUILD = YES
+VSBL_WEBCLI_HTTP_PATH = $(WIND_BASE)/os/manage/webcli/http
+VSBL_WEBCLI_HTTP_VERSION = WEBCLI_2_0_1_1_HTTP_2_0_1_1
+endif
+endif
+

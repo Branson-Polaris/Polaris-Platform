@@ -1,0 +1,20 @@
+# Automatically generated file: do not edit
+
+##########################
+# WEBCLI_MIBWAY Section
+##########################
+
+
+ifdef _WRS_CONFIG_WEBCLI_MIBWAY
+VSBL_WEBCLI_MIBWAY_SRC = 
+VSBL_WEBCLI_MIBWAY_DEPEND = 
+
+ifdef _WRS_CONFIG_WEBCLI_2_0_1_1_MIBWAY_2_0_1_1
+VSBL_WEBCLI_MIBWAY_SRC += WEBCLI_MIBWAY
+VSBL_WEBCLI_MIBWAY_DEPEND += SNMP
+WEBCLI_MIBWAY_FASTBUILD = YES
+VSBL_WEBCLI_MIBWAY_PATH = $(WIND_BASE)/os/manage/webcli/mibway
+VSBL_WEBCLI_MIBWAY_VERSION = WEBCLI_2_0_1_1_MIBWAY_2_0_1_1
+endif
+endif
+

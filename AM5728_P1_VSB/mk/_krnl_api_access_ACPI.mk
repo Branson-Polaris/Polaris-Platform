@@ -1,0 +1,24 @@
+
+ifndef __HEADER_ACCESS_ACPI_INCLUDED
+__HEADER_ACCESS_ACPI_INCLUDED = TRUE
+
+
+
+
+
+__SUBSCRIBE_ACCESS_ACPI = 
+
+
+
+ifneq ($(wildcard $(VSB_KERNEL_PROTECTED_INCLUDE_DIR)/ACPI),)
+
+ifneq ($(VSBL_NAME),)
+ifeq ($(VSBL_NAME),$(filter $(VSBL_NAME), ACPI))
+VSBL_LKH += $(OPTION_INCLUDE_DIR)$(VSB_KERNEL_PROTECTED_INCLUDE_DIR)/ACPI
+endif
+endif
+
+endif
+
+endif
+

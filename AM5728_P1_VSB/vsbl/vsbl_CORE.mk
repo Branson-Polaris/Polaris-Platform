@@ -1,0 +1,34 @@
+# Automatically generated file: do not edit
+
+##########################
+# CORE Section
+##########################
+
+
+ifdef _WRS_CONFIG_CORE
+VSBL_CORE_SRC = 
+VSBL_CORE_DEPEND = 
+
+ifdef _WRS_CONFIG_CORE_3_2_2_0
+ifdef _WRS_CONFIG_CORE_RTP
+VSBL_CORE_SRC += CORE_RTP
+endif
+ifdef _WRS_CONFIG_CORE_SAFETY
+VSBL_CORE_SRC += CORE_SAFETY
+endif
+ifdef _WRS_CONFIG_CORE_SYSCALLS
+VSBL_CORE_SRC += CORE_SYSCALLS
+endif
+ifdef _WRS_CONFIG_CORE_CUSTOM
+VSBL_CORE_SRC += CORE_CUSTOM
+endif
+VSBL_CORE_SRC += CORE
+VSBL_CORE_DEPEND += LIBC_STD
+VSBL_CORE_DEPEND += LIBC_STD
+VSBL_CORE_DEPEND += LIBC_STD
+CORE_FASTBUILD = YES
+VSBL_CORE_PATH = $(WIND_BASE)/os/core
+VSBL_CORE_VERSION = CORE_3_2_2_0
+endif
+endif
+
